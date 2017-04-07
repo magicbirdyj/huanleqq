@@ -1,0 +1,2734 @@
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013659s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:39+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006186s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Images
+
+ges
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001978s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:44+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:00:50+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:20:30+08:00 ] 127.0.0.1 /Public/Home/Mobile/Css/member.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:20:30+08:00 ] 127.0.0.1 /Public/Home/Mobile/Css/hunliren_shangjiaxinxi.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:20:30+08:00 ] 127.0.0.1 /Public/Home/Mobile/Js/member.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002617s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:20:30+08:00 ] 127.0.0.1 /Public/Home/Images/public/circle_f6f6f6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002125s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002355s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:51+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:52+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001834s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:52+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027248s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:52+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003980s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001642s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:39:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008665s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004209s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003168s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:41:37+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002395s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:42:23+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002152s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:24+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:42:24+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002111s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005331s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:27+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:43:28+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:35+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:47+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:44:48+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:48+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004907s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:44:48+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004580s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:30+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:31+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:31+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:31+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001852s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:45:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:46:27+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:46:27+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Images
+
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T00:46:28+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026640s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:14+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:14+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:14+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:15+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001926s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003551s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:01:22+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+ERR: 无法加载模块:Images
+
+s
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:02:45+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003158s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004105s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:29+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:03:55+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:03:55+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:03:56+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:04:14+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:04:14+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:04:14+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:14+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:14+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:15+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:15+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003993s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:15+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:15+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:15+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:04:15+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001788s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+ERR: 无法加载模块:Images
+
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001817s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:05:54+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Images
+
+es
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:04+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:17+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000342s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004130s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:06:25+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002582s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002400s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:12:06+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002761s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002748s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011146s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:15:36+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:16:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:15+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:15+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002285s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:16+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021529s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:49+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:49+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:50+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Images
+
+ges
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:20:53+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003417s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003328s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:24:31+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004408s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003232s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:48+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:49+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007761s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T01:29:57+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:06:55+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:32:31+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002686s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:51+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:33:51+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002355s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:33:52+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:36:39+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002440s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003160s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:01+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:02+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:02+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000306s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:37:02+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:00+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:38:00+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:38:01+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009089s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001979s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:39:01+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002416s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019699s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:40:07+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T09:52:59+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/num/num-NaN.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/slice3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/BG.m4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/bet.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/chipreceive.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/smallwin.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /Public/Home/Mobile/Images/bg-girl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/cancelBtn.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/countdown.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/timeEnd.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-07T10:36:53+08:00 ] 127.0.0.1 /images/mp3/flip.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+ERR: 无法加载模块:Images
+

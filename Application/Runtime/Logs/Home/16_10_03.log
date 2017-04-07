@@ -1,0 +1,108 @@
+[ 2016-10-03T23:59:41+08:00 ] 127.0.0.1 /Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx6231a8932405bdaf&amp;secret=05406ab511f4d9bd46ac09982065b102): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx6231a8932405bdaf&amp;secret=05406ab511f4d9bd46ac09982065b102): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `m_shops` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_shops` WHERE ( open_id='oSI43woDNwqw6b_jBLpM2wPjFn_M' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `m_users` WHERE ( user_id=90 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and deleted=0 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=0 and deleted=0  and status<6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and (status=2 or (tuan_no=0 and status=1)) and deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and status=3 and deleted=0 ) LIMIT 1   [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and status=4 and deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status>1 and deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant is_shop - assumed 'is_shop' E:\wamp\www\jiangzipinpin\Application\Home\Controller\MemberController.class.php 第 40 行.
+SQL: SELECT `shop_id` FROM `m_shops` WHERE ( open_id='oSI43woDNwqw6b_jBLpM2wPjFn_M' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( shop_id=17 and deleted=0 ) LIMIT 1   [ RunTime:0.0367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( shop_id=17 and pay_status=1 and status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( shop_id=17 and pay_status>1 and pay_status<4 and deleted=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_goods` WHERE ( shop_id=17 and is_delete=0 ) LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant status_count - assumed 'status_count' E:\wamp\www\jiangzipinpin\Application\Home\Controller\MemberController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_sellection` WHERE ( user_id=90 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and status=5 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status_count - assumed 'status_count' E:\wamp\www\jiangzipinpin\Application\Home\Controller\MemberController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-10-03T23:59:51+08:00 ] 127.0.0.1 /Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx6231a8932405bdaf&amp;secret=05406ab511f4d9bd46ac09982065b102): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx6231a8932405bdaf&amp;secret=05406ab511f4d9bd46ac09982065b102): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_shops` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_shops` WHERE ( open_id='oSI43woDNwqw6b_jBLpM2wPjFn_M' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `m_users` WHERE ( user_id=90 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and deleted=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=0 and deleted=0  and status<6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and (status=2 or (tuan_no=0 and status=1)) and deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and status=3 and deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and status=4 and deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status>1 and deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant is_shop - assumed 'is_shop' E:\wamp\www\jiangzipinpin\Application\Home\Controller\MemberController.class.php 第 40 行.
+SQL: SELECT `shop_id` FROM `m_shops` WHERE ( open_id='oSI43woDNwqw6b_jBLpM2wPjFn_M' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( shop_id=17 and deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( shop_id=17 and pay_status=1 and status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( shop_id=17 and pay_status>1 and pay_status<4 and deleted=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_goods` WHERE ( shop_id=17 and is_delete=0 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant status_count - assumed 'status_count' E:\wamp\www\jiangzipinpin\Application\Home\Controller\MemberController.class.php 第 54 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_sellection` WHERE ( user_id=90 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( user_id=90 and pay_status=1 and status=5 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant status_count - assumed 'status_count' E:\wamp\www\jiangzipinpin\Application\Home\Controller\MemberController.class.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+

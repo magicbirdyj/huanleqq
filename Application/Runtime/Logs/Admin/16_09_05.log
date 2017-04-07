@@ -1,0 +1,1535 @@
+[ 2016-09-05T00:30:06+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-05T00:30:43+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-05T00:30:45+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-05T00:31:07+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-05T00:31:21+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.1637s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022802s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2016-09-05T00:31:21+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url_to E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8] Undefined index: url_to E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: infor_mima E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\286f14c479e57cdb25987680ec610826.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-09-05T00:31:24+08:00 ] 127.0.0.1 /Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_admin_user` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT `ad_salt` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_admin_user` WHERE ( mobile_phone='13574506835' and password='f9241fc0fe6db8097a92f8f978e9586a' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-09-05T00:31:24+08:00 ] 127.0.0.1 /Admin/Login/chenggong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: dlm E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: mima E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `m_admin_user` [ RunTime:0.0057s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 58 行.
+SQL: UPDATE `m_admin_user` SET `last_login`='1473006684',`last_ip`='127.0.0.1' WHERE ( mobile_phone='13574506835' ) [ RunTime:0.0807s ]
+SQL: SELECT `user_id` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_name` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `last_login` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-05T00:31:24+08:00 ] 127.0.0.1 /Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-09-05T00:31:25+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-09-05T00:31:25+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2016-09-05T00:31:25+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-09-05T00:31:25+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2016-09-05T00:31:27+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0183s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0052s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2016-09-05T00:31:33+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.1060s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0227s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0060s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-09-05T00:32:55+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0088s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-09-05T00:33:23+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0066s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-09-05T00:33:37+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0057s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-09-05T00:37:15+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0091s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-09-05T00:37:32+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( status=2 and pay_status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0155s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.status=2 and t1.pay_status=1 and t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-09-05T00:37:33+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( pay_status=1 and status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0066s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.status=1 and t1.pay_status=1 and t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-09-05T00:37:34+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( status=2 and pay_status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.status=2 and t1.pay_status=1 and t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-09-05T00:37:38+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0077s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-09-05T09:51:18+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019254s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-09-05T09:51:18+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: url_to E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 10 行.
+NOTIC: [8] Undefined index: url_to E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: infor_mima E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\286f14c479e57cdb25987680ec610826.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-09-05T09:51:20+08:00 ] 127.0.0.1 /Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_admin_user` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `ad_salt` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_admin_user` WHERE ( mobile_phone='13574506835' and password='f9241fc0fe6db8097a92f8f978e9586a' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-05T09:51:20+08:00 ] 127.0.0.1 /Admin/Login/chenggong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: dlm E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: mima E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `m_admin_user` [ RunTime:0.0045s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\wamp\www\jiangzipinpin\Application\Admin\Controller\LoginController.class.php 第 58 行.
+SQL: UPDATE `m_admin_user` SET `last_login`='1473040280',`last_ip`='127.0.0.1' WHERE ( mobile_phone='13574506835' ) [ RunTime:0.0875s ]
+SQL: SELECT `user_id` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_name` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `last_login` FROM `m_admin_user` WHERE ( mobile_phone='13574506835' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-05T09:51:20+08:00 ] 127.0.0.1 /Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-09-05T09:51:21+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2016-09-05T09:51:21+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2016-09-05T09:51:21+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2016-09-05T09:51:21+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2016-09-05T09:51:23+08:00 ] 127.0.0.1 /Admin/Goodsmanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0272s ]
+SQL: SELECT `cat_name` FROM `m_category` WHERE ( pid<>0 and deleted=0 )  [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `m_goods` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined index: serch E:\wamp\www\jiangzipinpin\Application\Admin\Controller\GoodsmanageController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_goods` WHERE ( cat_name='水果' and is_delete=0 ) LIMIT 1   [ RunTime:0.0267s ]
+SQL: SELECT * FROM `m_goods` WHERE ( cat_name='水果' and is_delete=0 ) ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: 鲜榨果汁 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 甜品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 零食 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 粉磨食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 饮料 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 乳制品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 罐头食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-09-05T09:51:38+08:00 ] 127.0.0.1 /Admin/Goodsmanage/goods_editor/goods_id/231.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_shops` [ RunTime:0.0051s ]
+SQL: SELECT `shop_name` FROM `m_shops`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `m_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `m_goods` WHERE ( goods_id=231 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0045s ]
+SQL: SELECT `cat_name` FROM `m_category` WHERE ( pid<>0 and deleted=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `shuxing` FROM `m_category` WHERE ( cat_name='水果' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: 鲜榨果汁 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 甜品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 零食 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 粉磨食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 饮料 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 乳制品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 罐头食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 榴莲 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Undefined variable: 菠萝 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Undefined variable: 火龙果 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Undefined variable: 石榴 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-09-05T09:52:06+08:00 ] 127.0.0.1 /Admin/Goodsmanage/bianji_check/goods_id/231.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `m_goods` WHERE ( goods_id=231 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_shops` [ RunTime:0.0054s ]
+SQL: SELECT `shop_id` FROM `m_shops` WHERE ( shop_name='酱紫水果' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant Admin_user - assumed 'Admin_user' E:\wamp\www\jiangzipinpin\Application\Admin\Controller\GoodsmanageController.class.php 第 195 行.
+SQL: SHOW COLUMNS FROM `m_admin_user` [ RunTime:0.0045s ]
+SQL: SELECT `user_name` FROM `m_admin_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `m_category` WHERE ( cat_name='水果' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: zx_shuxing E:\wamp\www\jiangzipinpin\Application\Admin\Controller\GoodsmanageController.class.php 第 228 行.
+SQL: UPDATE `m_goods` SET `cat_id`='1',`cat_name`='水果',`fabu_name`='杨靖',`shop_id`='1',`shop_name`='酱紫水果',`goods_name`='四川蒲江红心猕猴桃12枚 新鲜水果甜心奇异果 买就送猕猴桃勺 单果70-90g',`goods_jianjie`='【坏果包赔】四川蒲江红心猕猴桃糖度高，果肉软糯细嫩，香气浓郁，口感香甜清爽。营养成分含量高，满足人体对维C和微量元素的需要。考虑到在运输过程中的一些问题，我们一般是发的七成熟的猕猴桃，您收到之后需要和其他水果放在一起催熟后食用。',`units`=' 单果70-90g',`1yuangou`='1',`choujiang`='1',`yuan_price`='14.8',`price`='14.8',`tuan_price`='1',`tuan_number`='5',`fahuo_day`='1',`shuxing`='a:1:{s:6:\"分类\";s:6:\"榴莲\";}',`goods_shuxing`='',`goods_img`='/Public/Uploads/image/goods/20160825/14720945504602348863.jpg',`goods_img_qita`='a:4:{i:0;s:61:\"/Public/Uploads/image/goods/20160825/14720945610250863132.jpg\";i:1;s:61:\"/Public/Uploads/image/goods/20160825/14720945733045945244.jpg\";i:2;s:61:\"/Public/Uploads/image/goods/20160825/14720945831935328431.jpg\";i:3;s:61:\"/Public/Uploads/image/goods/20160825/14720945969977858507.jpg\";}',`daijinquan`='1',`goods_desc`='<img src=\"/Public/Uploads/image/goods/20160825/thumb_14720954975970877096.jpg\" alt=\"\" ></iframe><img src=\"/Public/Uploads/image/goods/20160825/thumb_14720954984144153664.jpg\" alt=\"\" ></iframe><img src=\"/Public/Uploads/image/goods/20160825/thumb_14720954992374968262.jpg\" alt=\"\" ></iframe><img src=\"/Public/Uploads/image/goods/20160825/thumb_14720955001384777722.jpg\" alt=\"\" ></iframe><img src=\"/Public/Uploads/image/goods/20160825/thumb_14720955015151263248.jpg\" alt=\"\" ></iframe><br ></iframe>',`last_update`='1473040326' WHERE ( goods_id=231 ) [ RunTime:0.0267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-09-05T09:52:10+08:00 ] 127.0.0.1 /Admin/Goodsmanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0059s ]
+SQL: SELECT `cat_name` FROM `m_category` WHERE ( pid<>0 and deleted=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: serch E:\wamp\www\jiangzipinpin\Application\Admin\Controller\GoodsmanageController.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_goods` WHERE ( cat_name='水果' and is_delete=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `m_goods` WHERE ( cat_name='水果' and is_delete=0 ) ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: 鲜榨果汁 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 甜品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 零食 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 粉磨食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 饮料 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 乳制品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+NOTIC: [8] Undefined variable: 罐头食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\44be48c52c819b74b3b0b16f06fea967.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-09-05T09:52:12+08:00 ] 127.0.0.1 /Admin/Goodsmanage/goods_editor/goods_id/231.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_shops` [ RunTime:0.0056s ]
+SQL: SELECT `shop_name` FROM `m_shops`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `m_goods` WHERE ( goods_id=231 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0058s ]
+SQL: SELECT `cat_name` FROM `m_category` WHERE ( pid<>0 and deleted=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `shuxing` FROM `m_category` WHERE ( cat_name='水果' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: 鲜榨果汁 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 甜品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 零食 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 粉磨食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 饮料 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 乳制品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 罐头食品 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 40 行.
+NOTIC: [8] Undefined variable: 菠萝 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Undefined variable: 火龙果 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Undefined variable: 石榴 E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 144 行.
+NOTIC: [8] Use of undefined constant goods_img - assumed 'goods_img' E:\wamp\www\jiangzipinpin\Application\Runtime\Cache\Admin\cced33554f449b6a496b0f71c6f7ff10.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-09-05T19:59:41+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2016-09-05T19:59:42+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-09-05T19:59:42+08:00 ] 127.0.0.1 /Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-09-05T19:59:42+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-09-05T19:59:42+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-09-05T19:59:45+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0068s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-09-05T19:59:51+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0055s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 20,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-09-05T20:00:03+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0068s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 30,10   [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-09-05T20:00:08+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0061s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 40,10   [ RunTime:0.0218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-09-05T20:00:10+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0076s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 50,10   [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2016-09-05T20:00:11+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0061s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 40,10   [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-09-05T20:00:13+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0087s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 30,10   [ RunTime:0.0113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-09-05T20:00:14+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0073s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 20,10   [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-09-05T20:00:19+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0081s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 310,10   [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-09-05T20:00:21+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-09-05T20:00:41+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0057s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 20,10   [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-09-05T20:01:16+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( pay_status=0 and deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0055s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.pay_status=0 and t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-09-05T20:01:17+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( pay_status=1 and status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0057s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.status=1 and t1.pay_status=1 and t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-09-05T20:01:19+08:00 ] 127.0.0.1 /Admin/Ordermanage/index/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( status=2 and pay_status=1 and deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0060s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.status=2 and t1.pay_status=1 and t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-09-05T20:01:20+08:00 ] 127.0.0.1 /Admin/Ordermanage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: status E:\wamp\www\jiangzipinpin\Application\Admin\Controller\OrdermanageController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `m_order` WHERE ( deleted=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_order` [ RunTime:0.0055s ]
+SQL: SELECT * FROM m_order t1,m_users t2 WHERE ( t1.user_id=t2.user_id and t1.deleted=0 ) ORDER BY t1.order_id desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 1 bytes E:\wamp\www\jiangzipinpin\Application\Common\Common\function.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+

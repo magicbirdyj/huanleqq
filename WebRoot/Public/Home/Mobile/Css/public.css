@@ -1,0 +1,48 @@
+.foot-h {
+    position: fixed;
+    z-index: 8;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+}
+.footnav {
+    height: 50px;
+    border-top: 1px solid #DBDBDB;
+    background: #FFFFFF;
+}
+
+.footnav nav {
+    height: 40px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px 0px;
+}
+.footnav nav a{
+    width: 33.333%;
+}
+.footnav nav i {
+    font-size: 20px;
+    color: #666;
+}
+.footnav nav p {
+    color: #666;
+    margin: 0px;
+}
+
+
+.opacity{
+    filter:alpha(opacity=80);  
+      -moz-opacity:0.8;  
+      -khtml-opacity: 0.8;  
+      opacity: 0.8;  
+}
+
+
+.big-shade-all{position:absolute; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); z-index:9; display:none}

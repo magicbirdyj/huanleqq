@@ -1,0 +1,138 @@
+[ 2016-08-31T19:38:23+08:00 ] 127.0.0.1 /Home/Kindeditor/editor_check?dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-31T19:39:08+08:00 ] 127.0.0.1 /Home/Kindeditor/editor_check?dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-31T19:40:07+08:00 ] 127.0.0.1 /Home/Kindeditor/editor_check?dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-31T19:40:43+08:00 ] 127.0.0.1 /Home/Kindeditor/editor_check?dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-31T19:46:49+08:00 ] 127.0.0.1 /Home/Kindeditor/editor_check?dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-31T20:32:03+08:00 ] 127.0.0.1 /Home/Kindeditor/editor_check?dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx91953340c19f656e&amp;secret=ef25038aeb5792515f7ff5f7c8cbf483): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 139 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/d86c828583c5c6160e8acfee88ba1590.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&amp;type=jsapi): failed to open stream: No such file or directory E:\wamp\www\jiangzipinpin\Application\Home\Controller\FontEndController.class.php 第 147 行.
+NOTIC: [2] unlink(../Application/Runtime/Temp/e344c187b5ce3b018775638c2dc0c114.php): No such file or directory E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `m_admin_infor` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `m_admin_infor` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wamp\www\jiangzipinpin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
