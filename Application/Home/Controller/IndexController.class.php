@@ -23,6 +23,8 @@ class IndexController extends FontEndController {
     
 
 
+
+    
     
     public function get_new_order(){
         $time=  cookie('time');

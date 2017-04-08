@@ -22,7 +22,7 @@ class FontEndController extends Controller {
         $nologin=array('Goods/notifyweixin');//不需要登录的方法   //支付返回url
         if (!in_array(CONTROLLER_NAME, $nologin_contorller)&&!in_array(CONTROLLER_NAME.'/'.ACTION_NAME, $nologin)) {
             if (!isset($_SESSION['huiyuan']) || $_SESSION['huiyuan'] == '') {
-                header("location:". U("Login/index"));
+                header("location:". U("index/index"));
                 exit();
             }
         }

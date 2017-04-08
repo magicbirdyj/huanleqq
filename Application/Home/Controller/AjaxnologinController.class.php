@@ -77,7 +77,8 @@ class AjaxnologinController extends FontEndController {
         if(!$user){
             //注册
             $row=array(
-                'phone'=>$shoujihao
+                'phone'=>$shoujihao,
+                'head_url'=>'aaa'
             );
             $usersmodel->add($row);
             $user=$usersmodel->where("phone='{$shoujihao}'")->find();

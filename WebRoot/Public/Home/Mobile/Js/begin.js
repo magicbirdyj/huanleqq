@@ -241,14 +241,14 @@ function chou_ma_result_animate(obj,flag,end_offset){
     var offset=obj.offset();
     if(flag){
         //obj.animate({"left":'100px',"top":'100px'},1000);
-        obj.animate({"left":end_offset.left-offset.left,"top":end_offset.top-offset.top},500,function(){
+        obj.animate({"left":end_offset.left-offset.left,"top":end_offset.top-offset.top},1000,function(){
              obj.css('display','none'); //移除dom 
              obj.css('left','0'); //归位
              obj.css('top','0'); //归位
          });//中了
     }else{
         //obj.animate({"left":'100px',"top":'100px'},1000);
-        obj.animate({"left":200-obj.width()-offset.left,"top":0-obj.width()-offset.top},500,function(){
+        obj.animate({"left":200-obj.width()-offset.left,"top":0-obj.width()-offset.top},1000,function(){
              obj.css('display','none'); //移除dom 
              obj.css('left','0'); //归位
              obj.css('top','0'); //归位
