@@ -1,1 +1,0 @@
-a:7:{i:0;s:2:"id";i:1;s:8:"web_name";i:2;s:8:"key_word";i:3;s:11:"description";i:4;s:4:"copy";s:3:"_pk";s:2:"id";s:5:"_type";a:5:{s:2:"id";s:10:"tinyint(1)";s:8:"web_name";s:11:"varchar(20)";s:8:"key_word";s:12:"varchar(200)";s:11:"description";s:12:"varchar(400)";s:4:"copy";s:11:"varchar(60)";}}
