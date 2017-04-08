@@ -3,7 +3,7 @@ $('#guessRecharge').bind('click',function(){
     window.location.href="/Home/Charge/index";
 });
 
-var dues='20';
+var dues='1';
 
 $('.rechange_money_confirm_btn').bind('click',function(){
     if(is_weixin=='true'){
