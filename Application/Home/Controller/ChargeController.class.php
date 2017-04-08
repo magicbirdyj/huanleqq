@@ -58,7 +58,7 @@ class ChargeController extends FontEndController {
             'total_fee'=>$dues,
             'notify'=>PAY_HOST . U("Charge/notifyweixin",array('dues'=>$dues,'user_id'=>$_SESSION['user_id'])),
             'shop_name'=>'欢乐企鹅',
-            'order_no'=>getUniqueOrderNo(),
+            'order_no'=>$this->getUniqueOrderNo(),
             'open_id'=>$open_id,
             'goods_name'=>'企鹅纷纷乐'
         );
