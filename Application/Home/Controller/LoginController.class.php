@@ -25,7 +25,8 @@ class LoginController extends FontEndController {
             $wangye=$this->get_wangye($code);
             $open_id=$wangye['openid'];
             $_SESSION['huiyuan']['open_id']=$open_id;
-            header("location:". U('Charge/zhifu'));
+            var_dump($_SESSION['huiyuan']);
+            //header("location:". U('Charge/zhifu'));
         }else{
             alert('错误，微信浏览器并没收到code');
         } 
