@@ -1,0 +1,131 @@
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<script async="" charset="UTF-8" src="//static.meiqia.com/dist/meiqia.js"></script><script src="jscss/js/initparam.js" type="text/javascript"></script><link rel="stylesheet" href="jscss/js/lib/ionic/css/ionic.css" type="text/css"><link rel="stylesheet" href="jscss/css/all-min.css" type="text/css"><script src="jscss/js/lib/ionic/js/ionic.bundle.min.js" type="text/javascript"></script><script src="jscss/js/lib/echarts.min.js" type="text/javascript"></script><script src="jscss/js/lib/jquery.js" type="text/javascript"></script><script src="jscss/js/lib/jquery.transit.js" type="text/javascript"></script><script src="jscss/js/all-min.js" type="text/javascript"></script>
+	<body ng-app="myApp" class="light-bg grade-a platform-browser platform-ios platform-ios9 platform-ios9_1 platform-ready">
+		<ion-nav-view class="view-container" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-tabs class="tabs-light pane tabs-bottom tabs-standard tabs-item-hide" abstract="true" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);"><div class="tab-nav tabs">
+			
+	<ion-tab icon-on="ion-main_on" icon-off="ion-main_off" ng-click="tab('tabs/trade')"></ion-tab>
+
+	<ion-tab icon-on="ion-trade_on" icon-off="ion-trade_off" ng-click="tab('tabs/moneyPack')"></ion-tab>
+
+
+	<ion-tab icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off" ng-click="tab('tabs/me')"></ion-tab>
+	
+<a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item tab-item-active" ng-click="tab('tabs/trade')" icon-on="ion-main_on" icon-off="ion-main_off" style=""><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-main_on" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">交易</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/moneyPack')" icon-on="ion-trade_on" icon-off="ion-trade_off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-trade_off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">钱包</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/me')" icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-ios-person-off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title"></span></a></div><ion-nav-view name="trade-tab" class="view-container tab-content" nav-view="active" nav-view-transition="ios" nav-view-direction="forward" nav-swipe=""><ion-view hide-nav-bar="true" xmlns="http://www.w3.org/1999/html" class="pane" state="tabs.rechargemoney_trade" nav-view="active" style="opacity: 1; box-shadow: rgba(0, 0, 0, 0) 0px 0px 10px; transform: translate3d(0%, 0px, 0px);">
+	<!--<ion-nav-buttons side="left">-->
+		<!--<a class="button button-clear icon ion-ios-arrow-back" ng-click="goBackpro()">返回</a>-->
+	<!--</ion-nav-buttons>-->
+	<!--<ion-nav-buttons side="right">-->
+		<!--<a class="button button-clear icon ion-more"></a>-->
+	<!--</ion-nav-buttons>-->
+	<ion-content class="scroll-content ionic-scroll"><div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+		<oni-tip><!-- ngIf: tipFlag --></oni-tip>
+		<oni-bottom><!-- ngIf: trade_bottom_falg --></oni-bottom>
+		<div id="moneyPack" class="moneyPack">
+			<div class="header">
+				<div class="personPhoto">
+					<img ng-src="/images/LOGO.png" alt="" src="__PUBLIC_HOME__/Mobile/Images/LOGO.png">
+				</div>
+				<div class="account">
+
+					<div class="haveMoney">
+						<div class="haveMoney_txt">现金余额</div>
+						<div class="money">
+							<span class="moneyInt ng-binding"><{$user['balance']}></span>
+							<span class="moneyFloat ng-binding">.00</span>
+						</div>
+					</div>
+					<div class="redpackmoney">
+						<div class="redpackmoney_txt">红包余额</div>
+						<div class="redmoney">
+							<span class="redmoneyInt ng-binding"><{$user['red_pack']}></span>
+							<span class="redmoneyFloat ng-binding">.00</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<input type="text" id="test" placeholder="请输入内容" style="display: none;">
+            <div class="recharge_fast">快速充值选项</div>
+			<div class="rechange_money">
+				<div class="rechange_money_btn rechange_money_btn_active" dues='20' >20<span class="rechange_money_btn_yuan">元</span></div>
+				<div class="rechange_money_btn rechange_money_btn_center" dues='50'>50<span class="rechange_money_btn_yuan">元</span></div>
+				<div class="rechange_money_btn"  dues='100'>100<span class="rechange_money_btn_yuan">元</span></div>
+			</div>
+			<div class="rechange_money">
+				<div class="rechange_money_btn"  dues='500'>500<span class="rechange_money_btn_yuan">元</span></div>
+				<div class="rechange_money_btn rechange_money_btn_center"  dues='1000'>1000<span class="rechange_money_btn_yuan">元</span></div>
+				<div class="rechange_money_btn" dues='5000'>5000<span class="rechange_money_btn_yuan">元</span></div>
+			</div>
+
+            <div class="rechange_money_confirm" ng-click="rechange()">
+                <div class="rechange_money_confirm_btn">
+                    确认充值
+                </div>
+            </div>
+            <p class="rechange_money_txt">支付限额问题请更换银行卡</p>
+
+		</div>
+		<div class="qrCode" id="qrCode" style="display: none">
+			<div style="padding: 30px 30px 0;min-height: 100%;width: 100%;">
+				<div class="qrCode_top">
+					<div class="title qrCodeMargin">
+						<img id="imgheight" src="__PUBLIC_HOME__/Mobile/Images/rechargeicon_20161220.png" alt="">
+						<span id="weixinheight" style="margin-left: 10px;">微信支付</span>
+					</div>
+					<div>
+						<p class="qrCode_img_p ng-binding" style="padding-top: 15px;">待付款：20元</p>
+						<p class="qrCode_img_p ng-binding">订单号：</p>
+						<div class="qrCode_img">
+							<img src="__PUBLIC_HOME__/Mobile/Images/jpg;base64," ng-src="data:image/jpg;base64," alt="正在加载图片...">
+						</div>
+					</div>
+					<div class="bottom_line"></div>
+					<div class="bottom qrCodeMargin">
+						<span id="txt_length"></span>
+						<div class="bottom_txt_1">
+							<div>长按支付二维码，选择"保存到手机"
+								<div class="bottom_txt_img"><img src="__PUBLIC_HOME__/Mobile/Images/pay_000.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="bottom_line"></div>
+					<div class="bottom qrCodeMargin">
+						<div class="bottom_txt_2">
+							<div>
+								请在微信中打开扫一扫。
+								<div class="bottom_txt_img"><img src="__PUBLIC_HOME__/Mobile/Images/pay_001.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="bottom_line"></div>
+					<div class="bottom qrCodeMargin">
+						<div class="bottom_txt_3">
+							<div>
+								在扫一扫中点击右上角，选择“从相册选取二维码”并选取保存的图片。
+								<div class="bottom_txt_img"><img src="__PUBLIC_HOME__/Mobile/Images/pay_002.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="bottom_line"></div>
+					<div class="bottom qrCodeMargin">
+						<div class="bottom_txt_4">
+							<div>
+								如充值未及时到账，请联系在线客服。
+								<div class="bottom_txt_img"><img src="__PUBLIC_HOME__/Mobile/Images/pay_003.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="notice">提现时，现金将转入您付款时使用的微信账户</p>
+			</div>
+			<div class="qrCode_logo"></div>
+		</div>
+
+	</div><div class="scroll-bar scroll-bar-v"><div class="scroll-bar-indicator scroll-bar-fade-out" style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 736px;"></div></div></ion-content>
+        <script>
+            var is_weixin="<{$is_weixin}>";
+        </script>
+        <script async="" charset="UTF-8" src="__PUBLIC_HOME__/Mobile/Js/guessRecharge.js"></script>
+		
+	
+

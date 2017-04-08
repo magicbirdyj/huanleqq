@@ -9,6 +9,7 @@ class GameController extends FontEndController {
         $this->assign('balance',$users['balance']);
         $this->display();
     }
+    
    
     
 }
