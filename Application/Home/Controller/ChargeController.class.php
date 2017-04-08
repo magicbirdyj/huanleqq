@@ -26,7 +26,6 @@ class ChargeController extends FontEndController {
     public function zhifu() {
         $dues=$_SESSION['dues'];
         $open_id=$_SESSION['huiyuan']['open_id'];
-        var_dump($_SESSION['huiyuan']);
         if($open_id&&$dues){
             $this->alipay($open_id,$dues);
         }else{
@@ -42,8 +41,8 @@ class ChargeController extends FontEndController {
      */
     private function getUniqueOrderNo() {
         $code = getname();
-        $OrderModel = D("Order");
-        $res = $OrderModel->where("order_no='{$code}' and deleted=0")->find();
+        $ChargeModel = D("Charge");
+        $res = $ChargeModel->where("charge_no='{$code}'")->find();
         if ($res) {
             $this->getUniqueOrderNo();
         }
@@ -58,7 +57,7 @@ class ChargeController extends FontEndController {
             'total_fee'=>$dues,
             'notify'=>PAY_HOST . U("Charge/notifyweixin",array('dues'=>$dues,'user_id'=>$_SESSION['user_id'])),
             'shop_name'=>'欢乐企鹅',
-            'order_no'=>$this->getUniqueOrderNo(),
+            'charge_no'=>$this->getUniqueOrderNo(),
             'open_id'=>$open_id,
             'goods_name'=>'企鹅纷纷乐'
         );
