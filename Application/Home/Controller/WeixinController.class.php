@@ -3,6 +3,8 @@ namespace Home\Controller;
 use Home\Controller;
 class WeixinController extends FontEndController {
     public function index(){
+        $this->checkSignature();
+        /*
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
         if (empty($postStr)){
             echo '';
@@ -23,7 +25,7 @@ class WeixinController extends FontEndController {
             $content='联系客服，请点击下方按钮：  平台服务>>联系客服';
             $resultStr=$this->response_text($postObj, $content);
             echo $resultStr;
-            }
+            }*/
         
     }
    
@@ -202,7 +204,7 @@ class WeixinController extends FontEndController {
             }
         }
          */
-    /*
+    
     private function checkSignature(){
         $signature = $_GET["signature"];
         $timestamp = $_GET["timestamp"];
@@ -218,7 +220,7 @@ class WeixinController extends FontEndController {
             return false;
         }
     }
-    */
+    
     
     
    public function creat_menu() {
