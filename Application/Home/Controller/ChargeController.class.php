@@ -55,7 +55,7 @@ class ChargeController extends FontEndController {
         $paydata=array(
             'body'=>sprintf("欢乐企鹅： 充值金额：%s",  mb_substr($dues.'元', 0, 25, 'utf-8')),
             'total_fee'=>$dues,
-            'notify'=>PAY_HOST . U("Charge/notifyweixin",array('dues'=>$dues,'user_id'=>$_SESSION['user_id'])),
+            'notify'=>PAY_HOST . U("Charge/notifyweixin",array('dues'=>$dues,'user_id'=>$_SESSION['huiyuan']['user_id'])),
             'shop_name'=>'欢乐企鹅',
             'charge_no'=>$this->getUniqueOrderNo(),
             'open_id'=>$open_id,
@@ -74,9 +74,9 @@ class ChargeController extends FontEndController {
             $orderInput = new \WxPayUnifiedOrder();
             $orderInput->SetBody($paydata['body']);
             $orderInput->SetAttach($paydata['shop_name']);
-            $orderInput->SetOut_trade_no($paydata['order_no']);
+            $orderInput->SetOut_trade_no($paydata['charge_no']);
             $orderInput->SetTotal_fee($paydata['total_fee'] * 100);
-            $orderInput->SetGoods_tag($paydata['shop_name']);
+            $orderInput->SetGoods_tag($paydata['goods_name']);
             $orderInput->SetNotify_url($paydata['notify']);
             $orderInput->SetTrade_type("JSAPI");
             $orderInput->SetOpenid($paydata['open_id']);//必须为登录
