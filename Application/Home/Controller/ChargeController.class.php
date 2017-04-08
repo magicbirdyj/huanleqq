@@ -138,7 +138,7 @@ class ChargeController extends FontEndController {
                 "trade_no" => $returnPay['transaction_id'],
                 "pay_info" => serialize($returnPay)
             );
-            if (!$ordermodel->add($row)) {
+            if (!$chargemodel->add($row)) {
                 echo "fail";
             }else{
                 $usersmodel=D('Users');
