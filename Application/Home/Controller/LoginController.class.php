@@ -26,10 +26,7 @@ class LoginController extends FontEndController {
             $open_id=$wangye['openid'];
             $_SESSION['huiyuan']['open_id']=$open_id;
             $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=".APPID."&secret=".APPSECRET."&code=".$code."&grant_type=authorization_code" ;
-            var_dump($url);
-            var_dump($code);
-            var_dump($wangye);
-            //header("location:". U('Charge/zhifu'));
+            header("location:". U('Charge/zhifu'));
         }else{
             alert('错误，微信浏览器并没收到code');
         } 
