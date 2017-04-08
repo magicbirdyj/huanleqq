@@ -5,7 +5,6 @@ class LoginController extends FontEndController {
     public function index(){
         if(is_weixin()){
             $_SESSION['dues']=$_GET['dues'];
-            var_dump($_GET['dues']);exit;
             $a=urlencode("http://m.zsxjjd.com/Home/Login/weixin_login");
             $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx91953340c19f656e&redirect_uri=".$a."&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
             header("Location:{$url}");
