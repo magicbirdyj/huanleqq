@@ -4,7 +4,7 @@
 <script type="text/javascript">
 
             var jsApiParameters = <{$parameters}> ;
-            var ref='/'+"<{$ref}>";
+            var ref="<{$ref}>";
             callpay();
             function jsApiCall(){
                 WeixinJSBridge.invoke(
@@ -18,7 +18,7 @@
                         },
                         function(res){
                             if (res.err_msg == "get_brand_wcpay_request:ok") {
-                                window.location.href=window.location.host+ref;
+                                window.location=ref;
                             } else{
                                 alert('支付失败');
                                
