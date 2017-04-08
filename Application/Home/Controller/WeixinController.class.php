@@ -3,7 +3,13 @@ namespace Home\Controller;
 use Home\Controller;
 class WeixinController extends FontEndController {
     public function index(){
-        $this->checkSignature();
+        $echoStr = $_GET["echostr"];
+        if($echoStr){
+            if($this->checkSignature()){
+            echo $echoStr;
+            exit;
+            }
+        }
         /*
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
         if (empty($postStr)){
