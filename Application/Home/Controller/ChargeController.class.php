@@ -70,7 +70,6 @@ class ChargeController extends FontEndController {
     }
     
     private function weixin_zhijiezhifu($paydata){
-        var_dump($paydata);exit;
             vendor('wxp.native'); //引入第三方类库
             $orderInput = new \WxPayUnifiedOrder();
             $orderInput->SetBody($paydata['body']);
@@ -95,7 +94,7 @@ class ChargeController extends FontEndController {
                 $jsapi->SetPaySign($jsapi->MakeSign());
                 $parameters = $jsapi->GetValues();
             } else {
-                $this->error("下单失败" . $orderInfo['return_msg']);
+                $this->error("下单失败" . $orderInfo['return_msg'],1000);
             }
             
             $this->assign('paydata',$paydata);
