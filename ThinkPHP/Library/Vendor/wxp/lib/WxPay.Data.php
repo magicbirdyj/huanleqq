@@ -147,7 +147,7 @@ class WxPayResults extends WxPayDataBase
 	{
 		//fix异常
 		if(!$this->IsSignSet()){
-                    throw new WxPayException("签名错误！111");
+                    throw new WxPayException("签名错误！没有签名");
 		}
 		
 		$sign = $this->MakeSign();
@@ -203,6 +203,8 @@ class WxPayResults extends WxPayDataBase
 	{	
 		$obj = new self();
 		$obj->FromXml($xml);
+                var_dump($obj->values);
+                exit;
 		//fix bug 2015-06-29
 		if($obj->values['return_code'] != 'SUCCESS'){
 			 return $obj->GetValues();
