@@ -26,6 +26,11 @@ class ChargeController extends FontEndController {
     public function zhifu() {
         $dues=$_SESSION['dues'];
         $open_id=$_SESSION['huiyuan']['open_id'];
+        
+        var_dump($open_id);
+        var_dump($dues);exit;
+        
+        
         if($open_id&&$dues){
             $this->alipay($open_id,$dues);
         }else{
