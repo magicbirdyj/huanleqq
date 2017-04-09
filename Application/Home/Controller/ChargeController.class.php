@@ -124,10 +124,12 @@ class ChargeController extends FontEndController {
   
     public function notifyweixin(){
         $xml = $GLOBALS['HTTP_RAW_POST_DATA'];
-        //$return=$this->FromXml($xml);
-        
+        $return=$this->FromXml($xml);
+        $xml2=file_get_contents("php://input");
+        $return2=$this->FromXml($xml2);
 
-        file_put_contents('./pay_error.txt', $xml,FILE_APPEND);
+        file_put_contents('./pay_error.txt', $return['out_trade_no']);
+        ile_put_contents('./pay_error2.txt', $return['out_trade_no']);
         echo "success";
         exit;
         vendor('wxp.notify'); //引入第三方类库
