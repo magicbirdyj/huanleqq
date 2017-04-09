@@ -154,7 +154,7 @@ class WxPayResults extends WxPayDataBase
 		if($this->GetSign() == $sign){
 			return true;
 		}
-		throw new WxPayException("签名错误！");
+		throw new WxPayException($this->GetSign().'得到的签名'.$sign);
 	}
 	
 	/**

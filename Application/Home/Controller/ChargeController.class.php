@@ -221,7 +221,6 @@ class ChargeController extends FontEndController {
         $withdraw_payInput->SetDesc("提现");//企业付款描述信息
         $withdraw_payInfo = \WxPayApi::sendshoptransfers($withdraw_payInput, 300);
         //生成数据库里面Withdraw订单
-        var_dump($withdraw_payInfo);eixt;
         if (is_array($withdraw_payInfo) && $withdraw_payInfo['result_code'] == 'SUCCESS') {
             $WithdrawModel=D('Withdraw');
             $row=array(
