@@ -221,7 +221,7 @@ class WxPayResults extends WxPayDataBase
 		}
         return $obj->GetValues();
 	}
-}
+
 }
 
 /**
