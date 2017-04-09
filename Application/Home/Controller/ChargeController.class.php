@@ -128,7 +128,7 @@ class ChargeController extends FontEndController {
         file_put_contents('./a_error.txt', $returnPay,FILE_APPEND);
         
         $Wxpay_orderModel = D('Wxpay_order');
-            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$returnPay["out_trade_no"]}' and deleted=0 ")->find();
+            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$returnPay["out_trade_no"]}'")->find();
          
             $chargemodel = D('Charge');
             $user_id=$wxpay_order['wxpay_user_id'];
