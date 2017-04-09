@@ -127,50 +127,26 @@ class ChargeController extends FontEndController {
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        $wxpay_no=$returnPay["out_trade_no"];
-        $Wxpay_orderModel = D('Wxpay_order');
-            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$wxpay_no}'")->find();
-         
-            $chargemodel = D('Charge');
-            $user_id=$wxpay_order['wxpay_user_id'];
-            $row = array(
-                'user_id' =>$user_id, 
-                'charge_no'=>"{$returnPay['out_trade_no']}",
-                'charge_dues'=>$wxpay_order['wxpay_dues'],
-                'charge_time' => time(),
-                "pay_type" => 1,
-                "trade_no" => "{$returnPay['transaction_id']}",
-                "pay_info" => serialize($returnPay)
-            );
-            if (!$chargemodel->add($row)) {
-                echo "fail";
-            }else{
-                $usersmodel=D('Users');
-                $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
-            }
-            file_put_contents('./pay_error.txt',$wxpay_no,FILE_APPEND);
-            echo "success";
-        
-        
-/*
-        
+
         if (!$returnPay || $returnPay[""]) {
             echo "fail";
         }
         
         if (array_key_exists("return_code", $returnPay) && array_key_exists("result_code", $returnPay) && $returnPay["return_code"] == "SUCCESS" && $returnPay["result_code"] == "SUCCESS") {
+            $wxpay_no=$returnPay["out_trade_no"];
             $Wxpay_orderModel = D('Wxpay_order');
-            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$returnPay["out_trade_no"]}' and deleted=0 ")->find();
+            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$wxpay_no}'")->find();
+            $user_id=$wxpay_order['wxpay_user_id'];
+            $dues=$wxpay_order['wxpay_dues'];
             //验证交易金额是否为订单的金额;
             if (!empty($returnPay['total_fee'])) {
                 if ($returnPay['total_fee'] !=$wxpay_order['wxpay_dues'] * 100) {
                     file_put_contents('./a_error.txt',$returnPay['total_fee'],FILE_APPEND);
-                    file_put_contents('./a_error.txt',$_GET['dues'],FILE_APPEND);
+                    file_put_contents('./a_error.txt',$dues,FILE_APPEND);
                     echo "fail";
                 }
             } 
             $chargemodel = D('Charge');
-            $user_id=$wxpay_order['wxpay_user_id'];
             $row = array(
                 'user_id' =>$user_id, 
                 'charge_no'=>"{$returnPay['out_trade_no']}",
@@ -186,9 +162,8 @@ class ChargeController extends FontEndController {
                 $usersmodel=D('Users');
                 $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
             }
-            
             echo "success";
-        }*/
+        }
     }
 
   
