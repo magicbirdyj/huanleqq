@@ -123,12 +123,12 @@ class ChargeController extends FontEndController {
     
   
     public function notifyweixin(){
+        $xml = $GLOBALS['HTTP_RAW_POST_DATA'];
+        //$return=$this->FromXml($xml);
         
-        
-        
-        file_put_contents('/pay_error.txt', 'asdfafa',FILE_APPEND);
-        file_put_contents('./pay_error.txt', 'asdfafa',FILE_APPEND);
-        
+
+        file_put_contents('./pay_error.txt', $xml,FILE_APPEND);
+        echo "success";
         exit;
         vendor('wxp.notify'); //引入第三方类库
         $notify = new \PayNotifyCallBack();
@@ -160,10 +160,7 @@ class ChargeController extends FontEndController {
             echo "success";
         
         
-        
-        
-        
-        
+
         
         if (!$returnPay || $returnPay[""]) {
             echo "fail";

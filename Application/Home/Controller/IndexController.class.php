@@ -120,10 +120,6 @@ class IndexController extends FontEndController {
 
     
     
-    
-    public function ceshi() {
-       //file_put_contents('/pay_error.txt', 'asdfafa',FILE_APPEND);
-       file_put_contents('./pay_error.txt', 'asdfafa',FILE_APPEND);
-    }
+   
     
 }
