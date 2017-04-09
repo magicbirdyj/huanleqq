@@ -42,6 +42,7 @@ class LoginController extends FontEndController {
             var_dump($open_id);
             var_dump($url_1);
             var_dump($url_2);
+            exit;
             if($url_1&&$url_2){
                 header("location:". U($url_1.'/'.$url_2));
             }else{
