@@ -482,9 +482,10 @@ class WxPayApi
 		//检测必填参数
 		if(!$inputObj->IsAmountSet()) {
 			throw new WxPayException("缺少企业付款接口必填参数amount！");
-		}else if(!$inputObj->IsPartner_trade_noSet()){
-			throw new WxPayException("缺少企业付款接口必填参数partner_trade_no！");
-		}else if(!$inputObj->IsCheck_nameSet()) {
+		}//else if(!$inputObj->IsPartner_trade_noSet()){
+			//throw new WxPayException("缺少企业付款接口必填参数partner_trade_no！");
+		//}
+                else if(!$inputObj->IsCheck_nameSet()) {
 			throw new WxPayException("缺少企业付款接口必填参数check_name！");
 		}else if(!$inputObj->IsOpenidSet()){
 			throw new WxPayException("缺少企业付款接口必填参数openid！");
@@ -495,6 +496,7 @@ class WxPayApi
 
 		$inputObj->SetMch_appid(WxPayConfig::APPID);//公众账号ID
 		$inputObj->SetMchid(WxPayConfig::MCHID);//商户号
+                $inputObj->SetPartner_trade_no(WxPayConfig::MCHID.date('YmdHis').rand(1000, 9999));//商户订单号
                 $inputObj->SetSpbill_create_ip($_SERVER['REMOTE_ADDR']);//Ip地址
                 //return $_SERVER['SERVER_ADDR'];exit;	  
 		//$inputObj->SetSpbill_create_ip("1.1.1.1");  	    

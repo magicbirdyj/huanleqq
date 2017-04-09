@@ -216,7 +216,7 @@ class ChargeController extends FontEndController {
         $withdraw_no=$this->getWithdrawNo();
         $withdraw_payInput->SetAmount($amount);//付款金额 int 单位分
         $withdraw_payInput->SetOpenid($open_id);//接收付款用户
-        $withdraw_payInput->SetPartner_trade_no($withdraw_no);//商户订单号，需保持唯一性(只能是字母或者数字，不能包含有符号)
+        //$withdraw_payInput->SetPartner_trade_no($withdraw_no);//商户订单号，需保持唯一性(只能是字母或者数字，不能包含有符号)
         $withdraw_payInput->SetCheck_name('NO_CHECK');//NO_CHECK：不校验真实姓名FORCE_CHECK：强校验真实姓名（未实名认证的用户会校验失败，无法转账）OPTION_CHECK：针对已实名认证的用户才校验真实姓名（未实名认证用户不校验，可以转账成功）
         $withdraw_payInput->SetDesc("提现");//企业付款描述信息
         $withdraw_payInfo = \WxPayApi::sendshoptransfers($withdraw_payInput, 300);
