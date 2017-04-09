@@ -203,8 +203,6 @@ class WxPayResults extends WxPayDataBase
 	{	
 		$obj = new self();
 		$obj->FromXml($xml);
-                var_dump($obj->values);
-                exit;
 		//fix bug 2015-06-29
 		if($obj->values['return_code'] != 'SUCCESS'){
 			 return $obj->GetValues();
@@ -212,6 +210,18 @@ class WxPayResults extends WxPayDataBase
 		$obj->CheckSign();
         return $obj->GetValues();
 	}
+        
+        public static function Init_sendshoptransfers($xml)
+	{	
+		$obj = new self();
+		$obj->FromXml($xml);
+		//fix bug 2015-06-29
+		if($obj->values['return_code'] != 'SUCCESS'){
+			 return $obj->GetValues();
+		}
+        return $obj->GetValues();
+	}
+}
 }
 
 /**
