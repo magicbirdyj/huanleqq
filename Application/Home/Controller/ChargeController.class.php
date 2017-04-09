@@ -111,6 +111,7 @@ class ChargeController extends FontEndController {
             $this->assign('paydata',$paydata);
             $this->assign('ref',$_SESSION['ref']);
             $this->assign("parameters", json_encode($parameters));
+            var_dump($orderInfo);exit;
             $this->display('zhifu');
     }
     

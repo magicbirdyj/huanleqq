@@ -39,10 +39,6 @@ class LoginController extends FontEndController {
             $_SESSION['huiyuan']['open_id']=$open_id;
             $url_1=$_GET['url_1'];
             $url_2=$_GET['url_2'];
-            var_dump($open_id);
-            var_dump($url_1);
-            var_dump($url_2);
-            exit;
             if($url_1&&$url_2){
                 header("location:". U($url_1.'/'.$url_2));
             }else{
