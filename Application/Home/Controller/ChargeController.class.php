@@ -161,53 +161,99 @@ class ChargeController extends FontEndController {
             }else{
                 $usersmodel=D('Users');
                 $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
+                //清除session
+                session('dues',null); 
             }
             echo "success";
         }
     }
+    
+    public function withdraw() {
 
-  
-
-    
-public function FromXml($xml)
-	{	
-		if(!$xml){
-			throw new WxPayException("xml数据异常！");
-		}
-        //将XML转为array
-        //禁止引用外部xml实体
-        libxml_disable_entity_loader(true);
-        $this->values = json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);		
-		return $this->values;
-	}
- 
-    
-    
-    
-    public function gmcg_wx(){
-        $this->get_weixin_config();
-        $this->assign('title','付款成功');
-        $order_id=$_GET['order_id'];
+        
         $user_id=$_SESSION['huiyuan']['user_id'];
-        $ordermodel=D('Order');
-        $order=$ordermodel->where("order_id='{$order_id}' and deleted=0")->find();
-        $this->assign('order', $order);
-        if($user_id!=$order['user_id']){
-            $this->error('您没有该订单！',U('Order/index'),3);
+        $usersmodel=D('Users');
+        $user=$usersmodel->where("user_id='{$user_id}'")->find();
+        $this->assign('user',$user);
+        
+        
+        $this->assign('title','提现');
+        if(is_weixin()){
+            $this->assign('is_weixin','true');
+        }else{
+            $this->assign('is_weixin','false');
         }
-        if($order['pay_status']!='1'){
-            $this->error('未付款成功,将返回付款页面',U('Goods/zhifu',"order_id=$order_id"));
+        $this->display();
+    }
+    
+    public function withdraw_money() {
+        $withdraw_dues=$_SESSION['withdraw_dues'];
+        $open_id=$_SESSION['huiyuan']['open_id'];
+        
+        if($open_id&&$withdraw_dues){
+            //先检测余额是否足够
+            $user_id=$_SESSION['huiyuan']['user_id'];
+            $UsersModel=D('Users');
+            $balance=$UsersModel->where("user_id='{$user_id}'")->getField('balance');
+            if($balance<$withdraw_dues){
+                $this->error('余额不足');
+            }
+            $this->withdraw_pay($open_id,$withdraw_dues);
+        }else{
+            echo'没发现支付金额或者open_id';
         }
         
-        
-        $order_goodsmodel=D('Order_goods');
-        $order_goods=$order_goodsmodel->where("order_id='$order_id'")->select();
-        $order_price=0;
-        
-        $this->assign('order_goods',$order_goods);
-
-        $this->display('gmcg_dandu');
-
+    }
+    
+    
+    
+    private function withdraw_pay($open_id,$dues) {
+        vendor('wxp.native'); //引入第三方类库
+        $withdraw_payInput = new \WxPaySendShoptransfers();
+        //企业支付
+        $amount=$dues*100;
+        $send_name=$order['shop_name'];
+        $withdraw_no=$this->getWithdrawNo();
+        $withdraw_payInput->SetAmount($amount);//付款金额 int 单位分
+        $withdraw_payInput->SetOpenid($open_id);//接收付款用户
+        $withdraw_payInput->SetPartner_trade_no($withdraw_no);//商户订单号，需保持唯一性(只能是字母或者数字，不能包含有符号)
+        $withdraw_payInput->SetCheck_name('NO_CHECK');//NO_CHECK：不校验真实姓名FORCE_CHECK：强校验真实姓名（未实名认证的用户会校验失败，无法转账）OPTION_CHECK：针对已实名认证的用户才校验真实姓名（未实名认证用户不校验，可以转账成功）
+        $withdraw_payInput->SetDesc("提现");//企业付款描述信息
+        $withdraw_payInfo = \WxPayApi::sendshoptransfers($withdraw_payInput, 300);
+        //生成数据库里面Withdraw订单
+        if (is_array($withdraw_payInfo) && $withdraw_payInfo['result_code'] == 'SUCCESS') {
+            $WithdrawModel=D('Withdraw');
+            $row=array(
+                'withdraw_no'=>$withdraw_payInfo['partner_trade_no'],
+                'user_id'=>$_SESSION['huiyuan']['user_id'],
+                'withdraw_dues'=>$dues,
+                'payment_no'=>$withdraw_payInfo['payment_no'],
+                'withdraw_time'=>$withdraw_payInfo['payment_time']
+            );
+            $result=$WithdrawModel->add($row);
+            //余额减少
+            $usersmodel=D('Users');
+            $usersmodel->where("user_id='{$user_id}'")->setDec('balance',(int)$dues);
+            //清除session
+            session('withdraw_dues',null); 
+            
+            header("location:". $_SESSION['ref']);
+        }
+    }
+    
+    
+    /**
+     * 生成唯一的提现订单号 会查询订单表来保证唯一性
+     * 
+     */
+    private function getWithdrawNo() {
+        $code = getname();
+        $WithdrawModel=D('Withdraw');
+        $res = $WithdrawModel->where("withdraw_no='{$code}'")->find();
+        if ($res) {
+            $this->getWithdrawNo();
+        }
+        return $code;
     }
 
 

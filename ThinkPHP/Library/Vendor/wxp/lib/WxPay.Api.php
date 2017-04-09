@@ -472,7 +472,7 @@ class WxPayApi
 	}
         /**
 	 * 
-	 * 发放普通红包，WxPaySendRedPack中total_amount、re_openid、total_num、wishing、act_name、remark、send_name必填
+	 * 企业支付，WxPaySendRedPack中total_amount、re_openid、total_num、wishing、act_name、remark、send_name必填
 	 * wxappid、mch_id、mch_billno、nonce_str、sign、client_ip不需要填入
 	
 	 */
@@ -511,6 +511,12 @@ class WxPayApi
 		
 		return $result;
 	}
+        
+  
+        
+        
+        
+        
 	
 	/**
 	 * 

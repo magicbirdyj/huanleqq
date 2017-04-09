@@ -1,0 +1,66 @@
+<body ng-app="myApp" class="light-bg grade-a platform-browser platform-ios platform-ios9 platform-ios9_1 platform-ready">
+		<ion-nav-view class="view-container" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-tabs class="tabs-light pane tabs-bottom tabs-standard tabs-item-hide" abstract="true" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);"><div class="tab-nav tabs">
+			
+	<ion-tab icon-on="ion-main_on" icon-off="ion-main_off" ng-click="tab('tabs/trade')"></ion-tab>
+
+	<ion-tab icon-on="ion-trade_on" icon-off="ion-trade_off" ng-click="tab('tabs/moneyPack')"></ion-tab>
+
+	<!--<ion-tab title="代理赚钱" icon-on="ion-tradedetial-on" icon-off="ion-tradedetial-off" href="#/tabs/discover">-->
+
+		<!--<ion-nav-view name="discover-tab"> </ion-nav-view>-->
+
+	<!--</ion-tab>-->
+
+	<ion-tab icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off" ng-click="tab('tabs/me')"></ion-tab>
+	
+<a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item tab-item-active" ng-click="tab('tabs/trade')" icon-on="ion-main_on" icon-off="ion-main_off" style=""><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-main_on" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">交易</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/moneyPack')" icon-on="ion-trade_on" icon-off="ion-trade_off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-trade_off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">钱包</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/me')" icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-ios-person-off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title"></span></a></div><ion-nav-view name="trade-tab" class="view-container tab-content" nav-view="active" nav-view-transition="ios" nav-view-direction="forward" nav-swipe=""><ion-view hide-nav-bar="true" class="pane" state="tabs.withdraw_trade" nav-view="active" style="opacity: 1; box-shadow: rgba(0, 0, 0, 0) 0px 0px 10px; transform: translate3d(0%, 0px, 0px);">
+    <!--<ion-nav-buttons side="left">-->
+        <!--<a class="button button-clear icon ion-ios-arrow-back" onClick=”javascript :history.back(-1);”>返回</a>-->
+    <!--</ion-nav-buttons>-->
+    <!--<ion-nav-buttons side="right">-->
+        <!--<a class="button button-clear icon ion-more"></a>-->
+    <!--</ion-nav-buttons>-->
+    <ion-content class="scroll-content ionic-scroll"><div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+        <oni-tip><!-- ngIf: tipFlag --></oni-tip>
+        <oni-bottom><!-- ngIf: trade_bottom_falg --></oni-bottom>
+        <div class="withdraw" style="padding-top: 10px">
+            <div class="withdraw_header">
+                <div class="withdraw_header_account">
+                    <div class="withdraw_header_left">到账账户</div>
+                    <div class="withdraw_header_right">
+                        <div class="withdraw_header_right_btn">本微信号零钱包</div>
+                        <p class="withdraw_header_txt">提现手续费0%，限时优惠</p>
+                    </div>
+                </div>
+                <div class="withdraw_line"></div>
+                <div class="withdraw_header_money">
+
+                    <div id="inputbox">
+                        <lable for="moneyinput" style="height: auto;" class="lable" id="lable">提现金额</lable>
+                        <!--<input type="number" class="inputlable" id="moneyinput" myfocus="isOpen" placeholder="请输入金额" style="width: 50%;">-->
+                        <input type="number" class="register_input " id="moneyinput" onfocus="if(placeholder=='请输入金额') {placeholder=''}" onblur="if (value==''&amp;&amp;placeholder=='') {placeholder='请输入金额'}" placeholder="请输入金额" style="width: 50%;">
+                    </div>
+                    <p class="withdraw_header_txt margin_top_8 ng-binding" style="margin-top: 10px;">账户余额&nbsp;￥&nbsp;<{$user['balance']}>.00&nbsp;元</p>
+                </div>
+
+            </div>
+            <input type="text" id="test" placeholder="请输入内容" style="display: none;">
+
+
+
+
+
+            <div class="withdraw_money_confirm" ng-click="confirm()">
+                <div class="withdraw_money_confirm_btn">
+                    确认提现
+                </div>
+            </div>
+            <p class="rechange_money_txt">红包不能提现,只能用于抵扣下单</p>
+        </div>
+    </div><div class="scroll-bar scroll-bar-v"><div class="scroll-bar-indicator scroll-bar-fade-out" style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 667px;"></div></div></ion-content>
+</ion-view></ion-nav-view></ion-tabs></ion-nav-view>
+<script>
+            var is_weixin="<{$is_weixin}>";
+            var balance=parseInt("<{$user['balance']}>");
+</script>
+        <script async="" charset="UTF-8" src="__PUBLIC_HOME__/Mobile/Js/guessRecharge.js"></script>

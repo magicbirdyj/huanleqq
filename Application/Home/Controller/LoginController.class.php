@@ -2,10 +2,22 @@
 namespace Home\Controller;
 use  Home\Controller;
 class LoginController extends FontEndController {
+
     public function index(){
-        if(is_weixin()){
+        if($_GET['dues']){
             $_SESSION['dues']=$_GET['dues'];
-            $a=urlencode("http://m.zsxjjd.com/Home/Login/weixin_login");
+        }
+        if($_GET['withdraw_dues']){
+            $_SESSION['withdraw_dues']=$_GET['withdraw_dues'];
+        }
+        if(is_weixin()){
+            $url_1=$_GET['url_1'];
+            $url_2=$_GET['url_2'];
+            if($url_1&&$url_2){
+                $a=urlencode("http://m.zsxjjd.com/Home/Login/weixin_login/url_1/".$url_1.'/url_2/'.$url_2);
+            }else{
+                $a=urlencode("http://m.zsxjjd.com/Home/Login/weixin_login");
+            }
             $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx91953340c19f656e&redirect_uri=".$a."&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
             header("Location:{$url}");
             exit();
@@ -25,7 +37,13 @@ class LoginController extends FontEndController {
             $wangye=$this->get_wangye($code);
             $open_id=$wangye['openid'];
             $_SESSION['huiyuan']['open_id']=$open_id;
-            header("location:". U('Charge/zhifu'));
+            $url_1=$_GET['url_1'];
+            $url_2=$_GET['url_2'];
+            if($url_1&&$url_2){
+                header("location:". U($url_1.'/'.$url_2));
+            }else{
+                header("location:". $_SESSION['ref']);
+            }
         }else{
             alert('错误，微信浏览器并没收到code');
         } 
