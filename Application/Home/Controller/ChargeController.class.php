@@ -228,7 +228,8 @@ class ChargeController extends FontEndController {
                 'user_id'=>$_SESSION['huiyuan']['user_id'],
                 'withdraw_dues'=>$dues,
                 'payment_no'=>$withdraw_payInfo['payment_no'],
-                'withdraw_time'=>$withdraw_payInfo['payment_time']
+                'withdraw_time'=>time(),
+                'payment_time'=>$withdraw_payInfo['payment_time']
             );
             $result=$WithdrawModel->add($row);
             //余额减少
