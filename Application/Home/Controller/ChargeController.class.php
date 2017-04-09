@@ -114,9 +114,29 @@ class ChargeController extends FontEndController {
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
+        file_put_contents('./index.txt', $returnPay,FILE_APPEND);
+        $chargemodel = D('Charge');
+            $user_id=$_GET['user_id'];
+            $dues=$_GET['dues'];
+            $row = array(
+                'user_id' =>$user_id, 
+                'charge_no'=>'{$returnPay["out_trade_no"]}',
+                'charge_dues'=>$dues,
+                'charge_time' => time(),
+                "pay_type" => 1,
+                "trade_no" => $returnPay['transaction_id'],
+                "pay_info" => serialize($returnPay)
+            );
+            if (!$chargemodel->add($row)) {
+                echo "fail";
+            }else{
+                $usersmodel=D('Users');
+                $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
+            }
         if (!$returnPay || $returnPay[""]) {
             echo "fail";
         }
+        
         if (array_key_exists("return_code", $returnPay) && array_key_exists("result_code", $returnPay) && $returnPay["return_code"] == "SUCCESS" && $returnPay["result_code"] == "SUCCESS") {
             //验证交易金额是否为订单的金额;
             if (!empty($returnPay['total_fee'])) {
