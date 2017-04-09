@@ -125,10 +125,9 @@ class ChargeController extends FontEndController {
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        file_put_contents('./a_error.txt', $returnPay,FILE_APPEND);
-        
+        $wxpay_no=$returnPay["out_trade_no"];
         $Wxpay_orderModel = D('Wxpay_order');
-            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$returnPay["out_trade_no"]}'")->find();
+            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$wxpay_no}'")->find();
          
             $chargemodel = D('Charge');
             $user_id=$wxpay_order['wxpay_user_id'];
