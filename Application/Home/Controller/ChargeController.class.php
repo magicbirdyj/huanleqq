@@ -59,7 +59,7 @@ class ChargeController extends FontEndController {
             'wxpay_dues'=>$dues,
             'wxpay_time'=>time()
         );
-        $wxpay_id=$Wxpay_orderModel->add($row);
+        $Wxpay_orderModel->add($row);
         
         //微信
         $paydata=array(
@@ -125,7 +125,36 @@ class ChargeController extends FontEndController {
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        file_put_contents('/a1/a1.txt', $returnPay,FILE_APPEND);
+        file_put_contents('./a_error.txt', $returnPay,FILE_APPEND);
+        
+        $Wxpay_orderModel = D('Wxpay_order');
+            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$returnPay["out_trade_no"]}' and deleted=0 ")->find();
+         
+            $chargemodel = D('Charge');
+            $user_id=$wxpay_order['wxpay_user_id'];
+            $row = array(
+                'user_id' =>$user_id, 
+                'charge_no'=>"{$returnPay['out_trade_no']}",
+                'charge_dues'=>$wxpay_order['wxpay_dues'],
+                'charge_time' => time(),
+                "pay_type" => 1,
+                "trade_no" => "{$returnPay['transaction_id']}",
+                "pay_info" => serialize($returnPay)
+            );
+            if (!$chargemodel->add($row)) {
+                echo "fail";
+            }else{
+                $usersmodel=D('Users');
+                $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
+            }
+            
+            echo "success";
+        
+        
+        
+        
+        
+        
         
         if (!$returnPay || $returnPay[""]) {
             echo "fail";
@@ -137,14 +166,15 @@ class ChargeController extends FontEndController {
             //验证交易金额是否为订单的金额;
             if (!empty($returnPay['total_fee'])) {
                 if ($returnPay['total_fee'] !=$wxpay_order['wxpay_dues'] * 100) {
-                    file_put_contents('/a_error.txt',$returnPay['total_fee'],FILE_APPEND);
-                    file_put_contents('/a_error.txt',$_GET['dues'],FILE_APPEND);
+                    file_put_contents('./a_error.txt',$returnPay['total_fee'],FILE_APPEND);
+                    file_put_contents('./a_error.txt',$_GET['dues'],FILE_APPEND);
                     echo "fail";
                 }
             } 
             $chargemodel = D('Charge');
+            $user_id=$wxpay_order['wxpay_user_id'];
             $row = array(
-                'user_id' =>$wxpay_order['wxpay_user_id'], 
+                'user_id' =>$user_id, 
                 'charge_no'=>"{$returnPay['out_trade_no']}",
                 'charge_dues'=>$wxpay_order['wxpay_dues'],
                 'charge_time' => time(),
