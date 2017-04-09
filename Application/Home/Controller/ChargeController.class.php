@@ -234,6 +234,7 @@ class ChargeController extends FontEndController {
             $result=$WithdrawModel->add($row);
             //余额减少
             $usersmodel=D('Users');
+            $user_id=$_SESSION['huiyuan']['user_id'];
             $usersmodel->where("user_id='{$user_id}'")->setDec('balance',(int)$dues);
             //清除session
             session('withdraw_dues',null); 
