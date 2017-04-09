@@ -18,7 +18,7 @@
                             if (res.err_msg == "get_brand_wcpay_request:ok") {
                                 window.location=ref;
                             } else{
-                                alert(res.err_msg);
+                                writeObj(res);
                                 alert('支付失败');
                                
                             }
@@ -39,4 +39,13 @@
         }
     }
     
+    
+    function writeObj(obj){ 
+ var description = ""; 
+ for(var i in obj){ 
+ var property=obj[i]; 
+ description+=i+" = "+property+"\n"; 
+ } 
+ alert(description); 
+} 
 </script>
