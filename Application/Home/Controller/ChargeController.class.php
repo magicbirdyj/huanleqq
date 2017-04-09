@@ -114,7 +114,7 @@ class ChargeController extends FontEndController {
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        file_put_contents('/aaaaaa.txt', $returnPay,FILE_APPEND);
+        file_put_contents('/a1/a1.txt', $returnPay,FILE_APPEND);
         $chargemodel = D('Charge');
             $user_id=$_GET['user_id'];
             $dues=$_GET['dues'];
@@ -124,7 +124,7 @@ class ChargeController extends FontEndController {
                 'charge_dues'=>$dues,
                 'charge_time' => time(),
                 "pay_type" => 1,
-                "trade_no" => $returnPay['transaction_id'],
+                "trade_no" => "{$returnPay['transaction_id']}",
                 "pay_info" => serialize($returnPay)
             );
             if (!$chargemodel->add($row)) {
