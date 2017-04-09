@@ -114,7 +114,7 @@ class ChargeController extends FontEndController {
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        file_put_contents('./index.txt', $returnPay,FILE_APPEND);
+        file_put_contents('/aaaaaa.txt', $returnPay,FILE_APPEND);
         $chargemodel = D('Charge');
             $user_id=$_GET['user_id'];
             $dues=$_GET['dues'];
