@@ -3,9 +3,7 @@
 
             var jsApiParameters = <{$parameters}> ;
             var ref="<{$ref}>";
-            //callpay();
-            alert(this.location.href);
-            alert(top.location.href );
+            callpay();
             function jsApiCall(){
                 WeixinJSBridge.invoke(
                         'getBrandWCPayRequest', {

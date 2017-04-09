@@ -24,8 +24,6 @@ class ChargeController extends FontEndController {
     }
     
     public function zhifu() {
-        var_dump($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-        exit;
         $dues=$_SESSION['dues'];
         $open_id=$_SESSION['huiyuan']['open_id'];
         if($open_id&&$dues){

@@ -7,7 +7,7 @@ var dues='1';
 //充值
 $('.rechange_money_confirm_btn').bind('click',function(){
     if(is_weixin=='true'){
-        window.location.href="/Home/Login/index/url_1/charge/url_2/zhifu/dues/"+dues;
+        window.location.href="/Home/Login/index/url_1/Charge/url_2/zhifu/dues/"+dues;
     }else{
         //不是微信浏览器  直接出现扫码
     }
