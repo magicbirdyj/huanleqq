@@ -123,20 +123,10 @@ class ChargeController extends FontEndController {
     
   
     public function notifyweixin(){
-        //$xml = $GLOBALS['HTTP_RAW_POST_DATA'];
-        //$return=$this->FromXml($xml);
-        $xml2=file_get_contents("php://input");
-        $return2=$this->FromXml($xml2);
-
-        //file_put_contents('./pay_error.txt', $return['out_trade_no']);
-        file_put_contents('./pay_error2.txt', $return2['out_trade_no']);
-        echo "success";
-        exit;
         vendor('wxp.notify'); //引入第三方类库
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        file_put_contents('/pay_error.txt', 'asdfafa',FILE_APPEND);
         $wxpay_no=$returnPay["out_trade_no"];
         $Wxpay_orderModel = D('Wxpay_order');
             $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$wxpay_no}'")->find();
@@ -158,11 +148,11 @@ class ChargeController extends FontEndController {
                 $usersmodel=D('Users');
                 $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
             }
-            
+            file_put_contents('./pay_error.txt',$wxpay_no,FILE_APPEND);
             echo "success";
         
         
-
+/*
         
         if (!$returnPay || $returnPay[""]) {
             echo "fail";
@@ -198,7 +188,7 @@ class ChargeController extends FontEndController {
             }
             
             echo "success";
-        }
+        }*/
     }
 
   
