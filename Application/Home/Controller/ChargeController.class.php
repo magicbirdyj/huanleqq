@@ -123,13 +123,18 @@ class ChargeController extends FontEndController {
     
   
     public function notifyweixin(){
+        
+        
+        
+        file_put_contents('/pay_error.txt', 'asdfafa',FILE_APPEND);
+        file_put_contents('./pay_error.txt', 'asdfafa',FILE_APPEND);
+        
+        exit;
         vendor('wxp.notify'); //引入第三方类库
         $notify = new \PayNotifyCallBack();
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
-        mkdir('/Public/error/pay_error.txt');
-        file_put_contents('/Public/error/pay_error.txt', 'asdfafa',FILE_APPEND);
-        file_put_contents('/Public/error/pay_error.txt', $returnPay,FILE_APPEND);
+        file_put_contents('/pay_error.txt', 'asdfafa',FILE_APPEND);
         $wxpay_no=$returnPay["out_trade_no"];
         $Wxpay_orderModel = D('Wxpay_order');
             $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$wxpay_no}'")->find();
@@ -200,7 +205,17 @@ class ChargeController extends FontEndController {
   
 
     
-
+public function FromXml($xml)
+	{	
+		if(!$xml){
+			throw new WxPayException("xml数据异常！");
+		}
+        //将XML转为array
+        //禁止引用外部xml实体
+        libxml_disable_entity_loader(true);
+        $this->values = json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);		
+		return $this->values;
+	}
  
     
     

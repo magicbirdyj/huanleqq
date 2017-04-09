@@ -17,6 +17,7 @@ class IndexController extends FontEndController {
         $this->display();
     }
     
+    
     public function shi_wan() {
         $this->display();
     }
@@ -117,5 +118,12 @@ class IndexController extends FontEndController {
     }
     
 
+    
+    
+    
+    public function ceshi() {
+       //file_put_contents('/pay_error.txt', 'asdfafa',FILE_APPEND);
+       file_put_contents('./pay_error.txt', 'asdfafa',FILE_APPEND);
+    }
     
 }
