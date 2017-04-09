@@ -18,6 +18,7 @@
                             if (res.err_msg == "get_brand_wcpay_request:ok") {
                                 window.location=ref;
                             } else{
+                                alert(res.err_msg);
                                 alert('支付失败');
                                
                             }
