@@ -41,8 +41,8 @@ class ChargeController extends FontEndController {
      */
     private function getUniqueOrderNo() {
         $code = getname();
-        $ChargeModel = D("Charge");
-        $res = $ChargeModel->where("charge_no='{$code}'")->find();
+        $Wxpay_orderModel=D('Wxpay_order');
+        $res = $Wxpay_orderModel->where("wxpay_no='{$code}'")->find();
         if ($res) {
             $this->getUniqueOrderNo();
         }
@@ -51,16 +51,27 @@ class ChargeController extends FontEndController {
 
     //生成微信支付订单
     private function alipay($open_id,$dues) {
+        //创建wxpay_order订单（不一定客户最终会支付，只是在微信生成了订单）
+        $Wxpay_orderModel=D('Wxpay_order');
+        $row=array(
+            'wxpay_user_id'=>$_SESSION['huiyuan']['user_id'],
+            'wxpay_no'=>$this->getUniqueOrderNo(),
+            'wxpay_dues'=>$dues,
+            'wxpay_time'=>time()
+        );
+        $wxpay_id=$Wxpay_orderModel->add($row);
+        
         //微信
         $paydata=array(
             'body'=>sprintf("欢乐企鹅： 充值金额：%s",  mb_substr($dues.'元', 0, 25, 'utf-8')),
             'total_fee'=>$dues,
-            'notify'=>PAY_HOST . U("Charge/notifyweixin",array('dues'=>$dues,'user_id'=>$_SESSION['huiyuan']['user_id'])),
+            'notify'=>PAY_HOST . U("Charge/notifyweixin"),
             'shop_name'=>'欢乐企鹅',
-            'charge_no'=>$this->getUniqueOrderNo(),
+            'charge_no'=>$row['wxpay_no'],
             'open_id'=>$open_id,
             'goods_name'=>'企鹅纷纷乐'
         );
+        
         if(is_weixin()){//如果是微信浏览器 直接公众号支付，否则 扫一扫支付
             $this->weixin_zhijiezhifu($paydata);
         }else{
@@ -115,47 +126,30 @@ class ChargeController extends FontEndController {
         $notify->Handle(false);
         $returnPay = $notify->getPayReturn();
         file_put_contents('/a1/a1.txt', $returnPay,FILE_APPEND);
-        $chargemodel = D('Charge');
-            $user_id=$_GET['user_id'];
-            $dues=$_GET['dues'];
-            $row = array(
-                'user_id' =>$user_id, 
-                'charge_no'=>'{$returnPay["out_trade_no"]}',
-                'charge_dues'=>$dues,
-                'charge_time' => time(),
-                "pay_type" => 1,
-                "trade_no" => "{$returnPay['transaction_id']}",
-                "pay_info" => serialize($returnPay)
-            );
-            if (!$chargemodel->add($row)) {
-                echo "fail";
-            }else{
-                $usersmodel=D('Users');
-                $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$dues);
-            }
+        
         if (!$returnPay || $returnPay[""]) {
             echo "fail";
         }
         
         if (array_key_exists("return_code", $returnPay) && array_key_exists("result_code", $returnPay) && $returnPay["return_code"] == "SUCCESS" && $returnPay["result_code"] == "SUCCESS") {
+            $Wxpay_orderModel = D('Wxpay_order');
+            $wxpay_order = $Wxpay_orderModel->where("wxpay_no='{$returnPay["out_trade_no"]}' and deleted=0 ")->find();
             //验证交易金额是否为订单的金额;
             if (!empty($returnPay['total_fee'])) {
-                if ($returnPay['total_fee'] != $_GET['dues'] * 100) {
-                    file_put_contents('./index.txt',$returnPay['total_fee'],FILE_APPEND);
-                    file_put_contents('./index.txt',$_GET['dues'],FILE_APPEND);
+                if ($returnPay['total_fee'] !=$wxpay_order['wxpay_dues'] * 100) {
+                    file_put_contents('/a_error.txt',$returnPay['total_fee'],FILE_APPEND);
+                    file_put_contents('/a_error.txt',$_GET['dues'],FILE_APPEND);
                     echo "fail";
                 }
             } 
             $chargemodel = D('Charge');
-            $user_id=$_GET['user_id'];
-            $dues=$_GET['dues'];
             $row = array(
-                'user_id' =>$user_id, 
-                'charge_no'=>'{$returnPay["out_trade_no"]}',
-                'charge_dues'=>$dues,
+                'user_id' =>$wxpay_order['wxpay_user_id'], 
+                'charge_no'=>"{$returnPay['out_trade_no']}",
+                'charge_dues'=>$wxpay_order['wxpay_dues'],
                 'charge_time' => time(),
                 "pay_type" => 1,
-                "trade_no" => $returnPay['transaction_id'],
+                "trade_no" => "{$returnPay['transaction_id']}",
                 "pay_info" => serialize($returnPay)
             );
             if (!$chargemodel->add($row)) {
