@@ -278,6 +278,7 @@ function again(){
     
 }
 
+//最新结果插入后面
 function before_result(xingcan_result){
     $('.guess_top_order_green_bottom>.guess_top_order_green_bottom_num:first').remove();
     var $div=$('<div class="guess_top_order_green_bottom_num" style="width: 20.9299px; height: 20.9299px;"><img alt="" class="hide" src=""></div>');

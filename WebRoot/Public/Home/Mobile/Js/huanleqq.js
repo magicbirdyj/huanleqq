@@ -1,10 +1,7 @@
 var chouma=10;//下注的筹码  默认为10
 var xia_zhu_flag=true;
-//各个下单筹码值
-
-
-
-
+//往期结果，并写入页面
+get_preresult();
 
 
 //下单中的筹码默认不显示
@@ -241,3 +238,5 @@ function quxiao_xiazhu(){
             //被选数字颜色还原
             huan_yuan_src();
 }
+
+

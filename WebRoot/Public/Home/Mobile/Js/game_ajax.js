@@ -95,3 +95,32 @@ function result_order_and_order_goods(){
         }
     });
 }
+
+
+//获取最近5期的结果
+function get_preresult(){
+    var url='/Home/Ajaxnologin/get_preresult.html';
+    
+    $.ajax({
+        type:'post',
+        url:url,
+        datatype:'json',
+        async : true, 
+        success:function(msg){
+            for(var i=0;i<msg.length;i++){
+                var result=get_last_result(msg[i]);
+                $('.guess_top_order_green_bottom>.guess_top_order_green_bottom_num:eq('+i+')').children('img').attr('src',"/Public/Home/Mobile/Images/num/num-"+result+".png");
+            }
+        }
+    });
+}
+
+
+function get_last_result(result){
+    var result_one=parseInt(result/100)%10;
+    var result_two=parseInt(result/10)%10;
+    var result_three=result%10;
+    var result_last=result_one+result_two+result_three;
+    return result_last;
+}
+

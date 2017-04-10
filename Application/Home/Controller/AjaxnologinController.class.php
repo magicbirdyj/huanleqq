@@ -94,6 +94,14 @@ class AjaxnologinController extends FontEndController {
         
     }
     
+    
+    
+    public function get_preresult() {
+        $PreresultModel=D('Preresult');
+        $arr_result=$PreresultModel->order('preresult_id desc')->limit(5)->getField('result',true);
+        $this->ajaxReturn($arr_result);
+    }
+    
 }
 
 
