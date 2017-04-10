@@ -70,7 +70,7 @@ class AjaxloginController extends FontEndController {
         $result=$this->get_qq_online();
         $user_id=$_SESSION['huiyuan']['user_id'];
         $ordermodel=D('Order');
-        $order_id=$ordermodel->where("user_id='{$user_id}' and qi_shu='{$qi_shu}'")->getField('order_id');
+        $order_id=$ordermodel->where("user_id='{$user_id}' and qi_shu='{$qi_shu}'  and result<>0")->getField('order_id');
         if($order_id){
             //计算结果
             $result_one=((int)($result/100))%10;
@@ -80,7 +80,7 @@ class AjaxloginController extends FontEndController {
             $arr=$order_goodsmodel->where("order_id='{$order_id}'")->select();
             $arr_result=$this->result_push($result_one,$result_two,$result_three);
             $order_profit=0;
-            foreach ($arr as $key => $value) {
+            foreach ($arr as $value) {
                 $guess_id=$value['guess_id'];
                 $rec_id=$value['rec_id'];
                 $is_win=in_array((int)$guess_id,$arr_result);
@@ -132,11 +132,7 @@ class AjaxloginController extends FontEndController {
             
             //余额写入表
             $usersmodel=D('Users');
-            $balance=$usersmodel->where("user_id='{$user_id}'")->getField('balance');
-            $row=array(
-                'balance'=>(int)$balance+(int)$order_profit
-            );
-            $usersmodel->where("user_id='{$user_id}'")->save($row);
+            $usersmodel->where("user_id='{$user_id}'")->setInc('balance',(int)$order_profit);
         }
     }
     

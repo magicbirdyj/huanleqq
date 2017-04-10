@@ -119,8 +119,7 @@ function kaijiang(){
         result_three=result%10;
         result_last=result_one+result_two+result_three;
         
-        //结果写入order和order_goods,并且写入余额
-        result_order_and_order_goods();
+
         
         //开奖结果赋值
         $('.result_last_num1').text(result_one);
@@ -128,7 +127,7 @@ function kaijiang(){
         $('.result_last_num3').text(result_three);
         $('.result_number').text(result_last);
         $('.result_last_three>div').css('transform','translate(-80px,-80px)');//开奖结果先往上移影藏
-        $('.result_number').css('display','none');//开奖结果先影藏
+        $('.result_number').css('display','none');//开奖结果先隐藏
                 kaijiang_result();
         }});
     }});
@@ -245,7 +244,9 @@ function ji_suan_result(){
             //余额显示
             $('#accountMoney').text(balance);
             balance_clone=balance;
-             window.setTimeout("again()",1000);//延时1000执行下一次
+            //结果写入order和order_goods,并且写入余额
+            window.setTimeout("result_order_and_order_goods()",3000);
+            window.setTimeout("again()",1000);//延时1000执行下一次
         }
     }
 }

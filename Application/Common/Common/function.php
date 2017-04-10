@@ -167,124 +167,18 @@ function creat_file($dir){
 
 
 
-//获取订单状态
-function order_status($pay_status,$status,$order_id,$tuan_no){
-    if($pay_status==='0'){
-        if($status==='7'){
-            return array('status'=>'交易关闭','status_button'=>'删除订单','status_url'=>"$order_id");
-        }else if($status==='6'){
-            return array('status'=>'拼团失败','status_button'=>'删除订单','status_url'=>"/Home/Order/appraise/order_id/{$order_id}.html");
-        }else{
-            return array('status'=>'未支付','status_button'=>'去付款','status_url'=>"/Home/Goods/zhifu/order_id/{$order_id}.html");
-        }
-    }elseif($pay_status==='1'){
-        if($status==='1'&&$tuan_no!=0){
-            return array('status'=>'组团中','status_button'=>'邀请好友参团','status_url'=>"/Home/Goods/gmcg_wx/order_id/{$order_id}.html");
-        }else if($status==='1'&&$tuan_no==0){
-            return array('status'=>'待发货','status_button'=>'催商家发货','status_url'=>"$order_id");
-        }else if($status==='2'){
-            return array('status'=>'待发货','status_button'=>'催商家发货','status_url'=>"$order_id");
-        }else if($status==='3'){
-            return array('status'=>'待收货','status_button'=>'确认收货','status_url'=>"/Home/Order/jiaoyi_success/order_id/{$order_id}.html");
-        }else if($status==='4'){
-            return array('status'=>'待评价','status_button'=>'去评价','status_url'=>"/Home/Order/appraise/order_id/{$order_id}.html");
-        }else if($status==='5'){
-            return array('status'=>'交易完成','status_button'=>'删除订单','status_url'=>"/Home/Order/appraise/order_id/{$order_id}.html");
-        }else if($status==='6'){
-            return array('status'=>'拼团失败','status_button'=>'删除订单','status_url'=>"/Home/Order/appraise/order_id/{$order_id}.html");
-        }
-    }elseif($pay_status==='2'){
-        return array('status'=>'退款中...','status_button'=>'售后查看','status_url'=>"/Home/Order/shouhou_status/order_id/{$order_id}.html");
-    }elseif($pay_status==='3'){
-        return array('status'=>'换货中','status_button'=>'售后查看','status_url'=>"/Home/Order/shouhou_status/order_id/{$order_id}.html");
-    }elseif($pay_status==='4'){
-        return array('status'=>'退款成功','status_button'=>'删除订单','status_url'=>"javascript:void(0)");
-    }elseif($pay_status==='5'){
-        return array('status'=>'换货成功','status_button'=>'删除订单','status_url'=>"javascript:void(0)");
-    }
-}
 
-//获取订单状态
-function order_status_shops($pay_status,$status,$order_id){
-    if($pay_status==='0'){
-        if($status==='7'){
-            return array('status'=>'交易关闭','status_button'=>'删除订单','status_url'=>"$order_id");
-        }else{
-            return array('status'=>'未支付','status_button'=>'查看订单','status_url'=>"/Home/Shop/view_order/{$order_id}.html");
-        }
-    }elseif($pay_status==='1'){
-        if($status==='1'&&$tuan_no==0){
-            return array('status'=>'待发货','status_button'=>'去发货','status_url'=>"/Home/Shop/fahuo/order_id/{$order_id}.html");
-        }else if($status==='3'){
-            return array('status'=>'待收货','status_button'=>'查看订单','status_url'=>"/Home/Shop/view_order/order_id/{$order_id}.html");
-        }else if($status==='4'){
-            return array('status'=>'待评价','status_button'=>'查看订单','status_url'=>"/Home/Shop/view_order/order_id/{$order_id}.html");
-        }else if($status==='5'){
-            return array('status'=>'交易完成','status_button'=>'查看订单','status_url'=>"/Home/Shop/view_order/order_id/{$order_id}.html");
-        }
-    }elseif($pay_status==='2'){
-        return array('status'=>'退款中...','status_button'=>'售后查看','status_url'=>"/Home/Order/shouhou_status/order_id/{$order_id}.html");
-    }elseif($pay_status==='3'){
-        return array('status'=>'换货中','status_button'=>'售后查看','status_url'=>"/Home/Order/shouhou_status/order_id/{$order_id}.html");
-    }elseif($pay_status==='4'){
-        return array('status'=>'退款成功','status_button'=>'查看订单','status_url'=>"/Home/Shop/view_order/order_id/{$order_id}.html");
-    }elseif($pay_status==='5'){
-        return array('status'=>'换货成功','status_button'=>'查看订单','status_url'=>"/Home/Shop/view_order/order_id/{$order_id}.html");
-    }
-}
-//数组取值
-function shuzu($shuzu,$xiabiao){
-    return $shuzu[$xiabiao];
-}
 
-//星星分数变成百分数
-function xingxing_baifenbi($score){
-    $score1=round($score/5,2)*100;
-    return $score1.'%';
-}
-//生成属性参数url(第一个参数是目前url,第二个参数是属性值)
-function shuxing_url($url,$value){
-    $is_shuxing=strpos($url,'/shuxing/');
-    if($is_shuxing!==false){
-        $a=substr($url,0,$is_shuxing+9);
-        $b=substr($url,$is_shuxing+9 );
-        return $a.$value.'__'.$b;
-    }else{
-        return $url.'/shuxing/'.$value;
-    }
-}
 
-//取消属性参数(第一个参数是目前url,第二个参数是属性值)
-function quxiao_shuxing($url,$value){
-    $is_jia=strpos($url,'__');
-    //$is_shuxing=strpos($url,'/shuxing/');
-    if($is_jia!==false){ 
-        $weizhi=strpos($url,urlencode($value));
-        $a=str_replace(urlencode($value),'',$url);
-        
 
-        if(substr($a,$weizhi-2,2)==='__'){
-            return substr($a,0,$weizhi-2).substr($a,$weizhi);
-        }else{
-            return substr($a,0,$weizhi).substr($a,$weizhi+2);
-        }
-    }else{
-        return str_replace('/shuxing/'.urlencode($value),'',$url);
-    }
-}
+
+
+
 
 
 
     
-    //属性参数的除了+号以外的字符序列化
-    function xuliehua_shuxing($shuxing){
-        $arr_shuxing=explode('+',$shuxing);
-        $a='';
-        foreach ($arr_shuxing as $value){
-            $a.=urlencode($value).'+';
-        }
-        return substr($a,0,-1);
-    }
+
     
     
     
@@ -312,28 +206,7 @@ function dstrpos($string, $arr, $returnvalue = false) {
 
 
 
-//url改变参数
-function change_url_canshu($url_full,$canshu,$value){
-    
-    $index_0=strpos($url_full,'.html');
-    if($index_0){
-        $url=substr($url_full, 0,$index_0);
-    }else{
-        $url=$url_full;
-    }
-    $url=urldecode($url);
-    $index=strpos($url,$canshu);
-    if($index){
-        //$url_f=  substr($url, 0,$index);
-        $url_b=  substr($url, $index);
-        $arr=  explode('/', $url_b);
-        $new=  str_replace($arr[1], $value, $url);
-    }else{
-        $new=$url.'/'.$canshu.'/'.$value;
-    }
-    return $new;
-    
-}
+
 
 //检查是否微信浏览器
   function is_weixin() {
@@ -343,18 +216,9 @@ function change_url_canshu($url_full,$canshu,$value){
     return false;
 }
 
-//根据用户地址和订单地址用的是哪个，得到用户具体订单地址
-function  get_order_address($address,$order_address){
-    $arr_address=  unserialize($address);
-    $order_address_int=(int)$order_address;
-    return $arr_address[$order_address_int];
-}
 
-//根据订单地址的location 比如 “湖南 娄底 冷水江”  得到娄底
-function get_address_city($address){
-    $arr=  explode(' ', $address);
-    return $arr[0].' '.$arr[1];
-}
+
+
 
 
 //延时函数
@@ -367,4 +231,17 @@ function delayed($s) {
         $time1=time();
     }
     //var_dump($time1);
+}
+
+
+
+
+
+//根据QQ在线人数返回最后三位结果  数组
+function get_result($qq_online){
+    $result=$qq_online;
+    $arr_result[]=((int)($result/100))%10;
+    $arr_result[]=((int)($result/10))%10;
+    $arr_result[]=((int)$result)%10;
+    return $arr_result;
 }

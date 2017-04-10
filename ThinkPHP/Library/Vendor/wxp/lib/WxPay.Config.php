@@ -24,10 +24,6 @@ class WxPayConfig
 	 * 获取地址：https://mp.weixin.qq.com/advanced/advanced?action=dev&t=advanced/dev&token=2005451881&lang=zh_CN
 	 * @var string
 	 */
-	//const APPID = 'wx91953340c19f656e';
-	//const MCHID = '1380048502';
-	//const KEY = 'ujyftdfgsffsss23423sferfer2131ds';
-	//const APPSECRET = 'ef25038aeb5792515f7ff5f7c8cbf483';
         const APPID = APPID;
         const MCHID = MCHID;
 	const KEY = KEY;
@@ -41,8 +37,7 @@ class WxPayConfig
 	 */
 	const SSLCERT_PATH = WXP_SSLCERT_PATH;
 	const SSLKEY_PATH = WXP_SSLKEY_PATH;
-        //const SSLCERT_PATH ='/alidata/www/jiangzipinpin/ThinkPHP/Library/vendor/wxp/lib/cert/apiclient_cert.pem';
-	//const SSLKEY_PATH = '/alidata/www/jiangzipinpin/ThinkPHP/Library/vendor/wxp/lib/cert/apiclient_key.pem';
+
 	
 	//=======【curl代理设置】===================================
 	/**
