@@ -33,7 +33,7 @@ class CrontabController extends FontEndController {
         $qq_online=$this->get_qq_online();
   
         $OrderModel=D('Order');
-        $arr_order=$OrderModel->where("qi_shu='{$qi_shu}' and result<>0")->field('order_id,user_id')->select();
+        $arr_order=$OrderModel->where("qi_shu='{$qi_shu}' and result=0")->field('order_id,user_id')->select();
         //开奖结果写入订单
         foreach ($arr_order as $order) {
             $order_id=$order['order_id'];
