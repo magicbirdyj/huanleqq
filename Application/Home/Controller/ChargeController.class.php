@@ -243,7 +243,7 @@ class ChargeController extends FontEndController {
             
             header("location:". $_SESSION['ref']);
         }else{
-            header("location:". "U('Charge/withdraw',array('error'=>1))");
+            header("location:". U('Charge/withdraw',array('error'=>1)));
         }
     }
     
