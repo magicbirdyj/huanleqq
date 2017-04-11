@@ -151,7 +151,7 @@ class ChargeController extends FontEndController {
                 'user_id' =>$user_id, 
                 'charge_no'=>"{$returnPay['out_trade_no']}",
                 'charge_dues'=>$wxpay_order['wxpay_dues'],
-                'charge_time' => time(),
+                'time' => time(),
                 "pay_type" => 1,
                 "trade_no" => "{$returnPay['transaction_id']}",
                 "pay_info" => serialize($returnPay)
@@ -228,7 +228,7 @@ class ChargeController extends FontEndController {
                 'user_id'=>$_SESSION['huiyuan']['user_id'],
                 'withdraw_dues'=>$dues,
                 'payment_no'=>$withdraw_payInfo['payment_no'],
-                'withdraw_time'=>time(),
+                'time'=>time(),
                 'payment_time'=>$withdraw_payInfo['payment_time']
             );
             $result=$WithdrawModel->add($row);

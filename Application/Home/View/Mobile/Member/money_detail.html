@@ -1,0 +1,48 @@
+<body ng-app="myApp" class="light-bg grade-a platform-browser platform-win32 platform-ready">
+		<ion-nav-view class="view-container" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-tabs class="tabs-light pane tabs-bottom tabs-standard tabs-item-hide" abstract="true" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);"><div class="tab-nav tabs">
+			
+	<ion-tab icon-on="ion-main_on" icon-off="ion-main_off" ng-click="tab('tabs/trade')"></ion-tab>
+
+	<ion-tab icon-on="ion-trade_on" icon-off="ion-trade_off" ng-click="tab('tabs/moneyPack')"></ion-tab>
+
+	<!--<ion-tab title="代理赚钱" icon-on="ion-tradedetial-on" icon-off="ion-tradedetial-off" href="#/tabs/discover">-->
+
+		<!--<ion-nav-view name="discover-tab"> </ion-nav-view>-->
+
+	<!--</ion-tab>-->
+
+	<ion-tab icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off" ng-click="tab('tabs/me')"></ion-tab>
+	
+<a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/trade')" icon-on="ion-main_on" icon-off="ion-main_off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-main_off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">交易</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/moneyPack')" icon-on="ion-trade_on" icon-off="ion-trade_off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-trade_off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">钱包</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item tab-item-active" ng-click="tab('tabs/me')" icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off" style=""><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-ios-person-onn" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title"></span></a></div><ion-nav-view name="me-tab" class="view-container tab-content" nav-view="active" nav-view-transition="ios" nav-view-direction="forward" nav-swipe=""><ion-view class="pane" state="tabs.moneyDetail_me" nav-view="active" style="opacity: 1; box-shadow: rgba(0, 0, 0, 0) 0px 0px 10px; transform: translate3d(0%, 0px, 0px);">
+    <!--<ion-nav-buttons side="left">-->
+    <!--<a class="button button-clear icon ion-ios-arrow-back"  href="#/tabs/trade">返回</a>-->
+    <!--&lt;!&ndash;<a class="button button-clear icon ion-ios-arrow-back" onClick="window.history.go(-1)">返回</a>&ndash;&gt;-->
+    <!--</ion-nav-buttons>-->
+
+    <!--<ion-nav-buttons side="right">-->
+    <!--<a class="button button-clear" href="#/tabs/rulepage_discover">帮助</a>-->
+    <!--</ion-nav-buttons>-->
+    <oni-tip><!-- ngIf: tipFlag --></oni-tip>
+    <oni-bottom><!-- ngIf: trade_bottom_falg --></oni-bottom>
+    <ion-content class="scroll-content ionic-scroll" style='margin-bottom:50px;'><div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+        <div class="moneyDetaile" style="padding-top: 10px;">
+            <volist name='money' id='vo'>
+            <div class="moneyDetaile_list" ng-repeat="list2 in dtlDCInfos">
+                <div class="tradeDetail_title ng-binding"><{$vo['charge_id']?'账户充值':'账户提现'}></div>
+                <div class="tradeDetail_txt margin_top_8">金额：<span ng-class="{'tradeDetail_txt_red':'d'==list2.dcflag,'tradeDetail_txt_blue':'c'==list2.dcflag}" class="ng-binding tradeDetail_txt_blue"><{$vo['charge_dues']?$vo['charge_dues']:$vo['withdraw_dues']}>.00&nbsp;元</span></div>
+                <div class="tradeDetail_txt ng-binding">时间：<{:Date('Y-m-d H:m:s',$vo['time'])}></div>
+            </div>
+            </volist>
+            <div style="height: 10px;"></div>
+        </div>
+    </div><div class="scroll-bar scroll-bar-v"><div class="scroll-bar-indicator scroll-bar-fade-out" style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 225px;"></div></div></ion-content>
+
+</ion-view></ion-nav-view></ion-tabs></ion-nav-view>
+		<oni-login><div ng-switch="loginFlag" style="width: 100%;position: absolute;top: 0;bottom: 0;">
+    <!-- ngSwitchWhen: login -->
+    <!-- ngSwitchWhen: register -->
+    <!-- ngSwitchWhen: newPass -->
+</div></oni-login>
+		<user-login><!-- ngIf: userLoginFlag --></user-login>
+	
+

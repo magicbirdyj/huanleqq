@@ -1,0 +1,78 @@
+<body ng-app="myApp" class="light-bg grade-a platform-browser platform-win32 platform-ready">
+		<ion-nav-view class="view-container" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-tabs class="tabs-light pane tabs-bottom tabs-standard tabs-item-hide" abstract="true" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);"><div class="tab-nav tabs">
+			
+	<ion-tab icon-on="ion-main_on" icon-off="ion-main_off" ng-click="tab('tabs/trade')"></ion-tab>
+
+	<ion-tab icon-on="ion-trade_on" icon-off="ion-trade_off" ng-click="tab('tabs/moneyPack')"></ion-tab>
+
+	<!--<ion-tab title="代理赚钱" icon-on="ion-tradedetial-on" icon-off="ion-tradedetial-off" href="#/tabs/discover">-->
+
+		<!--<ion-nav-view name="discover-tab"> </ion-nav-view>-->
+
+	<!--</ion-tab>-->
+
+	<ion-tab icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off" ng-click="tab('tabs/me')"></ion-tab>
+	
+<a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/trade')" icon-on="ion-main_on" icon-off="ion-main_off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-main_off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">交易</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item" ng-click="tab('tabs/moneyPack')" icon-on="ion-trade_on" icon-off="ion-trade_off"><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-trade_off" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title">钱包</span></a><a ng-class="{'has-badge':badge, 'tab-hidden':isHidden(), 'tab-item-active': isTabActive()}" ng-disabled="disabled()" class="tab-item tab-item-active" ng-click="tab('tabs/me')" icon-on="ion-ios-person-onn" icon-off="ion-ios-person-off" style=""><!-- ngIf: badge --><!-- ngIf: getIcon() --><i class="icon ion-ios-person-onn" ng-if="getIcon()"></i><!-- end ngIf: getIcon() --><span class="tab-title ng-binding" ng-bind-html="title"></span></a></div><ion-nav-view name="me-tab" class="view-container tab-content" nav-view="active" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-view class="pane" state="tabs.myTrade_me" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);">
+    <!--<ion-nav-buttons side="left">-->
+    <!--<a class="button button-clear icon ion-ios-arrow-back"  href="#/tabs/trade">返回</a>-->
+    <!--&lt;!&ndash;<a class="button button-clear icon ion-ios-arrow-back" onClick="window.history.go(-1)">返回</a>&ndash;&gt;-->
+    <!--</ion-nav-buttons>-->
+
+    <!--<ion-nav-buttons side="right">-->
+    <!--<a class="button button-clear" href="#/tabs/rulepage_discover">帮助</a>-->
+    <!--</ion-nav-buttons>-->
+    <oni-tip><!-- ngIf: tipFlag --></oni-tip>
+    <oni-bottom><!-- ngIf: trade_bottom_falg --></oni-bottom>
+    <ion-content class="scroll-content ionic-scroll" style='margin-bottom: 50px;'>
+        <div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+        <div class="tradeDetaile" style="padding-top: 10px;">
+            <!--<div class="tradeDetail_txt_data margin_top_8">交易日期：2016.05.06</div>-->
+            <!-- ngRepeat: list1 in dtlTrades --><div class="tradeDetaile_trade_list" ng-repeat="list1 in dtlTrades">
+                <!-- ngIf: 'QQ_ONLINE'!=list1.targetid -->
+                <!-- ngIf: 'QQ_ONLINE'==list1.targetid -->
+                <volist name='order' id='vo'>
+                <div >
+                    <div class="tradeDetaile_trade_list_top">
+                        <div class="tradeDetail_title ng-binding">欢乐企鹅
+                            <!-- ngIf: list1.one -->
+                            <!-- ngIf: list1.two --><p class="tradeDetail_title_right green_txt ng-binding" ng-if="list1.two"><{$vo['order_profit']-$vo['dues']>0?'盈利':'亏损'}>&nbsp;<{$vo['order_profit']-$vo['dues']}>&nbsp;元</p><!-- end ngIf: list1.two -->
+                            <!-- ngIf: list1.three -->
+                            <!-- ngIf: list1.four -->
+                        </div>
+                        <div class="tradeDetaile_content">
+                            <div class="tradeDetail_txt margin_top_8"><span class="tradeDetail_txt_alignleft">交易单号：</span><p class="tradeDetail_txt_alignright ng-binding"><{$vo.user_id}><{$vo.created}></p></div>
+                            <div class="tradeDetail_txt"><span class="tradeDetail_txt_alignleft">开奖期号：</span><p class="tradeDetail_txt_alignright ng-binding"><{$vo.qi_shu}></p></div>
+                            <div class="tradeDetail_txt"><span class="tradeDetail_txt_alignleft">中奖号码：</span><p class="tradeDetail_txt_alignright ng-binding"><{$vo.result}></p></div>
+                            <div class="tradeDetail_txt"><span class="tradeDetail_txt_alignleft">下单金额：</span><p class="tradeDetail_txt_alignright ng-binding"><{$vo.dues}>.00元</p></div>
+                        </div>
+                    </div>
+                    
+                    <div class="tradeDetaile_trade_list_bottom">
+                        <div class="tradeDetaile_content">
+                            <div class="tradeDetail_txt margin_top_8"><span class="tradeDetail_txt_alignleft">下单详情：</span><p class="tradeDetail_txt_alignright ng-binding">
+                                <volist name='vo.goods' id='value'>
+                                    <{$value.goods_name}>:<{$value.goods_dues}>元&nbsp;&nbsp;&nbsp;&nbsp;
+                                </volist>
+                                </p></div>
+                            <div class="tradeDetail_txt"><span class="tradeDetail_txt_alignleft">手续费：</span><p class="tradeDetail_txt_alignright ng-binding"><{$vo['order_profit']*(5/100)}>元</p></div>
+                        </div>
+                    </div>
+                </div><!-- end ngIf: 'QQ_ONLINE'==list1.targetid -->
+                </volist>
+                
+            </div><!-- end ngRepeat: list1 in dtlTrades -->
+            <p class="rechange_money_txt">只显示最近20次交易结果</p>
+        </div>
+    </div>
+        <div class="scroll-bar scroll-bar-v"><div class="scroll-bar-indicator scroll-bar-fade-out" style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 736px;"></div></div></ion-content>
+
+</ion-view></ion-nav-view></ion-tabs></ion-nav-view>
+		<oni-login><div ng-switch="loginFlag" style="width: 100%;position: absolute;top: 0;bottom: 0;">
+    <!-- ngSwitchWhen: login -->
+    <!-- ngSwitchWhen: register -->
+    <!-- ngSwitchWhen: newPass -->
+</div></oni-login>
+		<user-login><!-- ngIf: userLoginFlag --></user-login>
+	
+
