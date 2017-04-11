@@ -64,3 +64,9 @@
             var balance=parseInt("<{$user['balance']}>");
 </script>
         <script async="" charset="UTF-8" src="__PUBLIC_HOME__/Mobile/Js/guessRecharge.js"></script>
+<script> 
+    var error="<{$error}>";
+    if(error==1){
+        alert('提现失败，请联系客服');
+    }
+</script>

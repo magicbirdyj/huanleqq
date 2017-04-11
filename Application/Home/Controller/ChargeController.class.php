@@ -183,6 +183,8 @@ class ChargeController extends FontEndController {
         }else{
             $this->assign('is_weixin','false');
         }
+        $error=$_GET['error'];
+        $this->assign('error',$error);
         $this->display();
     }
     
@@ -241,8 +243,7 @@ class ChargeController extends FontEndController {
             
             header("location:". $_SESSION['ref']);
         }else{
-            alert('提现失败，请联系客服');
-            header("location:". "U('Charge/withdraw')");
+            header("location:". "U('Charge/withdraw',array('error'=>1))");
         }
     }
     
