@@ -19,14 +19,36 @@ class IndexController extends FontEndController {
     
     
     public function shi_wan() {
+        $pre_result=$this->get_preresult();
+        foreach ($pre_result as  &$value) {
+            $result=$value['result'];
+            $value['last_result']=((int)($result/100))%10+((int)($result/10))%10+((int)$result)%10;
+        }
+        $this->assign('pre_result',$pre_result);
         $this->display();
     }
     
-
-
-
     
+    private function get_preresult() {
+        $PreresultModel=D('Preresult');
+        $arr_result=$PreresultModel->order('preresult_id desc')->limit(20)->select();
+        return $arr_result;
+    }
     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
     public function get_new_order(){
         $time=  cookie('time');
         $ordermodel=D('Order');
@@ -89,33 +111,8 @@ class IndexController extends FontEndController {
         return $shijian;
     }
     
-    public function news_all(){
-        
-        $newsmodel=D('News');
-        $list=$newsmodel->where("is_delete=0")->order('news_id desc')->select();
 
-        $this->assign('list',$list);
-       
-        $this->display();
-    }
-    public function news() {
-        $news_id=$_GET['news_id'];
-        if(!$news_id){
-            $this->error('找不到该文章');
-        }
-        $newsmodel=D('News');
-        $news=$newsmodel->where("news_id=$news_id")->find();
-        if(!$news){
-            $this->error('找不到该文章');
-        }
-        $this->assign('news',$news);
-        $js_content=preg_replace('/\n|\r/', " ", $news['news_content']);
-        $js_content=mb_substr($js_content,0,50,'utf-8');
-        $this->assign('js_content',$js_content);
-        $this->display();
-        //让文章的阅读次数加1
-         $newsmodel->where("news_id='$news_id'")->setInc('read_count');
-    }
+   
     
 
     

@@ -1,7 +1,6 @@
 var chouma=10;//下注的筹码  默认为10
 var xia_zhu_flag=true;
-//往期结果，并写入页面
-get_preresult();
+var waring_settime;
 
 
 //下单中的筹码默认不显示
@@ -49,6 +48,12 @@ $('.guess_bottom_chess_num_box').bind('click',function(){
     function xia_zhu(even){
         //先检测余额是否充足
         if(balance<chouma){
+            return false;
+        }
+        if(all_chouma+chouma>500){
+            $('.popFailBox').css('display','block');
+            window.clearTimeout(waring_settime); 
+            waring_settime=window.setTimeout( "waring_none()",3000);//延时3000
             return false;
         }
         
@@ -240,3 +245,26 @@ function quxiao_xiazhu(){
 }
 
 
+//玩法介绍
+$('.guess_top_title_left').bind('click',function(){
+    $('.guess_desc').css('display','flex');
+    $('.guess_desc_content').css('display','block');
+});
+
+$('.guess_desc_close_btn').bind('click',function(){
+    $('.guess_desc').css('display','none');
+    $('.guess_chart_content').css('display','none');
+    $('.guess_desc_content').css('display','none');
+});
+
+//走势图
+$('.guess_top_title_right').bind('click',function(){
+    $('.guess_desc').css('display','flex');
+    $('.guess_chart_content').css('display','flex');
+});
+
+
+//警示下单超过500 消失
+function waring_none(){
+    $('.popFailBox').css('display','none');
+}

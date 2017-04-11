@@ -285,6 +285,7 @@ function again(){
                 $('.guess_top_order_green_top_result').css('aa','0');
                 $('.result_number').css('display','none');//最终结果隐藏
                 before_result(result_last)//往期结果入队
+                zoushitu_result();//往期结果入走势图
                 //all_chouma清零
                 all_chouma=0;
                 big_fun();//延时1000执行下一次
@@ -298,4 +299,52 @@ function before_result(xingcan_result){
     var $div=$('<div class="guess_top_order_green_bottom_num" style="width: 20.9299px; height: 20.9299px;"><img alt="" class="hide" src=""></div>');
     $div.children('img').attr('src',"/Public/Home/Mobile/Images/num/num-"+xingcan_result+".png");
     $('.guess_top_order_green_bottom>.guess_top_order_green_bottom_num:last').after($div);
+}
+
+
+//往期结果入走势图
+function zoushitu_result(){
+    $('#guess_chart_box>.guess_chart_box_data:last').remove();
+    var str='<div class="guess_chart_box_data">';
+    str+= '<div class="guessChart_number">'+qi_shu+'</div>';
+    str+= '<div class="guessChart_sum">'+result_last+'</div>';
+    str+= '<div class="guessChart_big"></div>';
+    str+= '<div class="guessChart_small"></div>';
+    str+= '<div class="guessChart_single"></div>';
+    str+= '<div class="guessChart_double"></div>';
+    str+= '<div class="guessChart_bigDouble"></div>';
+    str+= '<div class="guessChart_smallDouble"></div>';
+    str+= '<div class="guessChart_bigSingle"></div>';
+    str+= '<div class="guessChart_smallSingle"></div>';
+    str+= '<div class="guessChart_shun"></div>';
+    str+= '<div class="guessChart_bao"></div>';
+    str+= '</div>';
+    var $div=$(str);
+    if(result_last<14){
+        $div.children('.guessChart_small').append('<span></span>');//小数
+        if(result_last%2==0){
+            $div.children('.guessChart_smallDouble"').append('<span></span>');//小双
+            $div.children('.guessChart_double').append('<span></span>');//双
+        }else{
+            $div.children('.guessChart_smallSingle').append('<span></span>');//小单
+            $div.children('.guessChart_single').append('<span></span>');//单
+        }
+    }else{
+        $div.children('.guessChart_big').append('<span></span>');//大数
+        if(result_last%2==0){
+            $div.children('.guessChart_bigDouble').append('<span></span>');//大双
+            $div.children('.guessChart_double').append('<span></span>');//双
+        }else{
+            $div.children('.guessChart_bigSingle').append('<span></span>');//大单
+            $div.children('.guessChart_single').append('<span></span>');//单
+        }
+    }
+    
+    if(result_one===result_two&&result_one===result_three){
+        $div.children('.guessChart_bao').append('<span></span>');//豹子
+    }
+    if(result_three-result_two===1&&result_two-result_one===1){
+        $div.children('.guessChart_shun').append('<span></span>');//顺子
+    }
+    $('#guess_chart_box>.guess_chart_box_data:first').before($div);
 }

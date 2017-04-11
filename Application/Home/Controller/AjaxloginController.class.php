@@ -23,6 +23,12 @@ class AjaxloginController extends FontEndController {
             $this->ajaxReturn('1');
             exit;
         }
+        //验证总下注是否大于500
+        if($post['all_chouma']>500){
+            $this->ajaxReturn('2');
+            exit;
+        }
+        
         //下单
         $ordermodel=D('Order');
         $user_id=$_SESSION['huiyuan']['user_id'];
