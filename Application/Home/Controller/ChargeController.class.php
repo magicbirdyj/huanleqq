@@ -242,6 +242,7 @@ class ChargeController extends FontEndController {
             header("location:". $_SESSION['ref']);
         }else{
             alert('提现失败，请联系客服');
+            header("location:". "U('Charge/withdraw')");
         }
     }
     
