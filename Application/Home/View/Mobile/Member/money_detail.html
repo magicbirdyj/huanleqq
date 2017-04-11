@@ -29,7 +29,7 @@
             <volist name='money' id='vo'>
             <div class="moneyDetaile_list" ng-repeat="list2 in dtlDCInfos">
                 <div class="tradeDetail_title ng-binding"><{$vo['charge_id']?'账户充值':'账户提现'}></div>
-                <div class="tradeDetail_txt margin_top_8">金额：<span ng-class="{'tradeDetail_txt_red':'d'==list2.dcflag,'tradeDetail_txt_blue':'c'==list2.dcflag}" class="ng-binding tradeDetail_txt_blue"><{$vo['charge_dues']?$vo['charge_dues']:$vo['withdraw_dues']}>.00&nbsp;元</span></div>
+                <div class="tradeDetail_txt margin_top_8">金额：<span  class="ng-binding <{$vo['charge_dues']?'tradeDetail_txt_blue':'tradeDetail_txt_red'}>"><{$vo['charge_dues']?'+':'-'}><{$vo['charge_dues']?$vo['charge_dues']:$vo['withdraw_dues']}>.00&nbsp;元</span></div>
                 <div class="tradeDetail_txt ng-binding">时间：<{:Date('Y-m-d H:m:s',$vo['time'])}></div>
             </div>
             </volist>

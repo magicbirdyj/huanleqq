@@ -240,6 +240,8 @@ class ChargeController extends FontEndController {
             session('withdraw_dues',null); 
             
             header("location:". $_SESSION['ref']);
+        }else{
+            alert('提现失败，请联系客服');
         }
     }
     
