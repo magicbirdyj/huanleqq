@@ -4,6 +4,7 @@ use Home\Controller;
 class IndexController extends FontEndController {
    
     public function index(){
+        echo phpinfo();exit;
         $user_id=$_SESSION['huiyuan']['user_id'];
         if(!$user_id){
             $login="no_login";
