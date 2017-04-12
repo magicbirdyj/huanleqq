@@ -58,7 +58,7 @@ class FontEndController extends Controller {
         }*/
         
         
-        
+        C("DEFAULT_THEME", "Mobile");//默认模板主题名称
         //$ismobile = checkmobile();//检查客户端是否是手机
         if($_SERVER['HTTP_HOST']==='m.zsxjjd.com'||$_SERVER['HTTP_HOST']==='m.myhongbao.com'||$_SERVER['HTTP_HOST']==='www.zsxjjd.com'){
             C("DEFAULT_THEME", "Mobile");//默认模板主题名称
